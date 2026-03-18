@@ -36,22 +36,4 @@
   background-color: #000111;
 }
 
-/* Testimonial cards */
-.grid.cards.testimonials {
-    grid-template-columns: 1fr !important;
-    gap: 1.5rem;
-    margin: 1rem 0;
-}
-
-.grid.cards.testimonials > * {
-    margin-top: 0 !important;
-}
-
-/* Style the author name and title */
-.grid.cards.testimonials p:nth-child(2) {
-    margin-top: -0.5rem;
-    color: var(--md-default-fg-color--light);
-    font-size: 0.9rem;
-}
-
 
