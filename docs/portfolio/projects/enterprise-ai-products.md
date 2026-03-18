@@ -1,6 +1,6 @@
 ---
 title: Production AI API Platform
-description: Agentic AI systems with deterministic workflow orchestration using LangChain, serving 500+ daily API requests and reducing manual processing by 70%.
+description: Production AI API platform with deterministic workflow orchestration, serving 500+ daily API requests and reducing manual processing by 70%.
 ---
 
 # Production AI API Platform
@@ -21,19 +21,19 @@ description: Agentic AI systems with deterministic workflow orchestration using 
 
 Complex competitive analysis tasks required analysts to manually gather, process, and synthesize information from multiple sources — a process that was slow, inconsistent, and difficult to scale. The client needed an AI-driven platform that could automate multi-step analysis workflows while maintaining the accuracy and reliability required for business-critical decisions.
 
-## Approach
+## Approach & Architecture
 
-I architected agentic AI systems with deterministic workflow orchestration:
+I designed the platform as a production service layer for multi-step AI workflows:
 
-- **LangChain** for designing multi-step agents that break complex analysis tasks into reliable, repeatable subtasks
-- **Deterministic workflow orchestration** ensuring consistent results across runs — not just "chat with an LLM" but structured, predictable AI automation
-- **FastAPI with WebSocket support** for both synchronous API endpoints and real-time streaming of analysis results
-- **AWS infrastructure** (Lambda for serverless functions, ECS for containerized services, S3 for data storage) providing scalable, cost-effective deployment
-- **Docker containerization** and CI/CD pipelines for continuous delivery and reliable deployments
+- **LangChain** for multi-step agentic workflows broken into repeatable and observable subtasks.
+- **Deterministic orchestration** so the system behaves like a service, not like an unpredictable chat session.
+- **FastAPI with WebSocket support** for synchronous endpoints and real-time streaming of results.
+- **AWS deployment model** across Lambda, ECS, and S3 to match performance and scaling needs.
+- **Docker and CI/CD** for repeatable deployments and operational consistency.
 
 The platform was designed to handle multiple concurrent analysis requests while maintaining response quality and system reliability.
 
-## Results & Impact
+## Results
 
 - 70% reduction in manual competitive analysis processing time
 - 500+ daily API requests handled reliably
@@ -53,12 +53,12 @@ The platform was designed to handle multiple concurrent analysis requests while 
 
 <div class="grid cards" style="margin-top: 3rem" markdown>
 
--   :material-linkedin:{ .lg .middle } Looking to automate complex workflows?
+-   :material-calendar-month-outline:{ .lg .middle } Book a free intro call
 
     ---
 
-    If your team spends too much time on manual analysis or needs AI-driven automation at scale, let's connect and discuss how agentic AI can accelerate your operations.
+    If your team spends too much time on manual analysis or needs AI-driven automation at scale, book a short call and we can assess the right agentic architecture for your operations.
 
-    [Let's Connect :material-arrow-top-right:](https://www.linkedin.com/in/aesanfiel/){ .md-button .md-button--primary }
+    [Book Free Intro Call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
 </div>

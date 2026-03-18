@@ -1,6 +1,6 @@
 ---
 title: Hybrid Search RAG Pipeline
-description: Enterprise RAG pipeline combining OpenSearch and Qdrant vector databases with hybrid search, achieving 40% improvement in retrieval accuracy.
+description: Enterprise hybrid RAG pipeline combining OpenSearch and Qdrant, achieving a 40% improvement in retrieval accuracy.
 ---
 
 # Hybrid Search RAG Pipeline
@@ -21,19 +21,19 @@ description: Enterprise RAG pipeline combining OpenSearch and Qdrant vector data
 
 Knowledge-intensive applications require highly accurate information retrieval from large, domain-specific document collections. Traditional keyword search missed semantic relationships, while pure vector search struggled with exact term matching and structured queries. The client needed a retrieval system that could reliably surface the most relevant information across diverse document types and query patterns.
 
-## Approach
+## Approach & Architecture
 
-I engineered a hybrid search RAG pipeline that combines the strengths of both vector and keyword search:
+I engineered a retrieval architecture that combines vector and keyword search without locking the system into a single retrieval strategy:
 
-- **OpenSearch** for full-text keyword search with BM25 scoring, handling exact matches and structured queries
-- **Qdrant vector database** for semantic similarity search using dense embeddings, capturing meaning beyond keywords
-- **Hybrid search fusion** strategy that combines results from both engines, re-ranking to optimize relevance
-- **LangChain** orchestration for managing the retrieval pipeline, prompt templates, and LLM interaction
-- **Hexagonal architecture** principles to decouple the LLM layer from retrieval logic, enabling easy swapping of models and search backends
+- **OpenSearch** for keyword retrieval and exact-term matching where BM25 performs best.
+- **Qdrant** for semantic similarity search that captures intent beyond literal phrasing.
+- **Hybrid fusion and re-ranking** to combine both result sets and improve relevance for real user queries.
+- **LangChain orchestration** to manage retrieval, prompting, and downstream LLM interaction.
+- **Hexagonal architecture** to decouple retrieval logic, model choices, and integration boundaries.
 
-The architecture was designed with clean ports-and-adapters patterns, allowing each component (embedding model, vector store, search engine, LLM) to be independently tested and replaced.
+This made it easier to test, replace, and iterate on each part of the stack without rewriting the entire pipeline.
 
-## Results & Impact
+## Results
 
 - 40% improvement in domain-specific information retrieval accuracy
 - Reliable handling of both semantic and keyword-based queries
@@ -53,12 +53,12 @@ The architecture was designed with clean ports-and-adapters patterns, allowing e
 
 <div class="grid cards" style="margin-top: 3rem" markdown>
 
--   :material-linkedin:{ .lg .middle } Need better search accuracy?
+-   :material-calendar-month-outline:{ .lg .middle } Book a free intro call
 
     ---
 
-    If your application struggles with information retrieval or you need a production-ready RAG pipeline, let's connect and explore how hybrid search can improve your results.
+    If your application struggles with information retrieval or you need a production-ready RAG pipeline, book a short call and we can explore whether hybrid search is the right next step.
 
-    [Let's Connect :material-arrow-top-right:](https://www.linkedin.com/in/aesanfiel/){ .md-button .md-button--primary }
+    [Book Free Intro Call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
 </div>

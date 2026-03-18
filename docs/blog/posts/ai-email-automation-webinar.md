@@ -1,5 +1,6 @@
 ---
 date: 2025-01-01
+pin: true
 authors:
   - aesanfiel
 categories:
@@ -43,4 +44,4 @@ In this session, I walk through the full architecture and implementation of an A
 3. **Start with the business problem**: The best AI systems are designed around measurable outcomes, not just technology
 4. **Production-readiness from day one**: Architecture decisions made early determine how reliably your system performs under real workloads
 
-If you're interested in building similar AI automation systems or want to discuss the technical details, feel free to [connect with me on LinkedIn](https://www.linkedin.com/in/aesanfiel/).
+If you're interested in building similar AI automation systems or want to discuss the technical details, you can [book a free intro call](https://calendly.com/andresesanfiel/introduction-call){ target="_blank" rel="noopener" }.

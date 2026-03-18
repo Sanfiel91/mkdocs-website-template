@@ -1,11 +1,11 @@
 ---
 title: Portfolio
-description: "Featured AI engineering projects — agentic systems, RAG pipelines, and production-ready AI products by Andrés Espinosa Sanfiel."
+description: "Selected case studies in agentic AI, hybrid RAG, and production AI delivery by Andrés Espinosa Sanfiel."
 ---
 
-# Featured Projects
+# Selected Case Studies
 
-Welcome to my portfolio of AI engineering projects. Each project demonstrates my expertise in building agentic AI systems, scalable RAG pipelines, and production-ready AI solutions that deliver measurable business impact.
+These projects show how I approach business problems that require more than a prototype. The focus is on measurable outcomes, maintainable architecture, and production-minded delivery across automation, retrieval, and AI platform work.
 
 <div class="grid cards" markdown>
 
@@ -13,18 +13,20 @@ Welcome to my portfolio of AI engineering projects. Each project demonstrates my
 
     ---
 
-    A production GenAI email automation system that reduced daily email triage from 100+ items to 10-15 actionable items. Built with Pydantic-AI, RAG, and FastAPI. Presented at Datamecum Webinar 2025.
+    A production GenAI workflow that reduced daily email triage from 100+ items to 10-15 actionable items using Pydantic-AI, RAG, and FastAPI.
 
 -   [Hybrid Search RAG Pipeline](projects/rag-hybrid-search-pipeline.md)
 
     ---
 
-    An enterprise RAG pipeline combining OpenSearch and Qdrant vector databases with hybrid search strategies, achieving a 40% improvement in domain-specific information retrieval accuracy.
+    A hybrid retrieval architecture combining OpenSearch and Qdrant to improve domain-specific accuracy by 40% while keeping the LLM layer decoupled.
 
 -   [Production AI API Platform](projects/enterprise-ai-products.md)
 
     ---
 
-    Agentic AI systems with deterministic workflow orchestration using LangChain, serving 500+ daily API requests on AWS. Reduced manual competitive analysis processing time by 70%.
+    A production AI platform with deterministic orchestration, FastAPI, WebSockets, and AWS infrastructure serving 500+ daily API requests.
 
 </div>
+
+If you want to discuss a similar architecture or evaluate where AI can create operational leverage in your business, [book a free intro call](https://calendly.com/andresesanfiel/introduction-call){ target="_blank" rel="noopener" }.

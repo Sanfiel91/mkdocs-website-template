@@ -1,6 +1,6 @@
 ---
 title: AI-Powered Email Automation System
-description: Production GenAI email automation system using Pydantic-AI, RAG, and FastAPI that reduced daily email triage from 100+ to 10-15 actionable items.
+description: Production GenAI email automation workflow using Pydantic-AI, RAG, and FastAPI that reduced daily email triage from 100+ to 10-15 actionable items.
 ---
 
 # AI-Powered Email Automation System
@@ -21,18 +21,18 @@ description: Production GenAI email automation system using Pydantic-AI, RAG, an
 
 The client was drowning in a high volume of daily emails — over 100 items requiring manual review, classification, and response. The manual triage process was time-consuming, error-prone, and diverted skilled professionals from higher-value tasks. They needed an intelligent system that could automatically understand email content, classify urgency, and surface only the items that truly required human attention.
 
-## Approach
+## Approach & Architecture
 
-I designed and built a production GenAI email automation system using a modern AI stack:
+I designed the solution as a production workflow, not just a classification demo:
 
-- **Pydantic-AI** for structured LLM output validation, ensuring reliable and type-safe AI responses
-- **RAG (Retrieval-Augmented Generation)** pipeline to ground email classification in domain-specific context and historical patterns
-- **FastAPI** backend for high-performance API endpoints handling real-time email processing
-- **Deterministic workflow orchestration** to ensure consistent, predictable email classification across categories
+- **Structured output layer** with Pydantic-AI so the system returns validated, type-safe decisions instead of free-form text.
+- **RAG classification pipeline** to ground decisions in domain-specific context, policies, and historical examples.
+- **FastAPI service layer** for real-time email processing and clean API integration with surrounding systems.
+- **Deterministic orchestration** to keep routing and prioritization behavior consistent across categories and edge cases.
 
-The architecture followed hexagonal design principles, decoupling the LLM layer from business logic to allow easy model swapping and testing.
+The architecture followed hexagonal principles so the LLM layer, business rules, and infrastructure could evolve independently.
 
-## Results & Impact
+## Results
 
 - Daily email triage reduced from 100+ items to 10-15 actionable items
 - Automated classification with high accuracy across multiple categories
@@ -48,19 +48,18 @@ The architecture followed hexagonal design principles, decoupling the LLM layer 
 - Python backend services
 - Docker containerization
 - Hetzner cloud infrastructure
+- Hexagonal architecture for maintainability
 
-## Recognition
-
-This project was presented as a technical talk at the **Datamecum Webinar 2025** under the title *"AI-Powered Email Automation: From Chaos to Action"*, demonstrating the end-to-end production system architecture, design decisions, and real-world results.
+This project was later presented as a technical talk at **Datamecum Webinar 2025**, showing the production architecture, design decisions, and operational results.
 
 <div class="grid cards" style="margin-top: 3rem" markdown>
 
--   :material-linkedin:{ .lg .middle } Interested in a similar solution?
+-   :material-calendar-month-outline:{ .lg .middle } Book a free intro call
 
     ---
 
-    If your team is struggling with email overload or needs intelligent document processing, let's connect and discuss how AI automation can transform your workflows.
+    If your team is struggling with email overload or needs intelligent document processing, book a short call and we can assess whether this type of AI automation fits your workflow.
 
-    [Let's Connect :material-arrow-top-right:](https://www.linkedin.com/in/aesanfiel/){ .md-button .md-button--primary }
+    [Book Free Intro Call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
 </div>

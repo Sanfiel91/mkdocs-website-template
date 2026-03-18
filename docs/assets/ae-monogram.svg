@@ -1,0 +1,10 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logo-title logo-desc">
+<title id="logo-title">AE Monogram</title>
+<desc id="logo-desc">Stylized AE monogram for Andres Espinosa Sanfiel</desc>
+<rect x="16" y="16" width="224" height="224" rx="52" fill="#0E2238"/>
+<rect x="16" y="16" width="224" height="224" rx="52" stroke="#8FBFE8" stroke-width="10"/>
+<path d="M72 182L116 74H140L184 182H158L148 156H108L98 182H72ZM117 132H139L128 102L117 132Z" fill="#F8FBFF"/>
+<path d="M152 96H198V118H152V96Z" fill="#8FBFE8"/>
+<path d="M152 126H194V148H152V126Z" fill="#F8FBFF"/>
+<path d="M152 156H198V178H152V156Z" fill="#8FBFE8"/>
+</svg>
