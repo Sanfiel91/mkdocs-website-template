@@ -2,7 +2,7 @@ name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
-    branches: [website-sanfiel]
+    branches: [sanfiel-site]
   workflow_dispatch:
 
 permissions:
