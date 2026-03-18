@@ -3,7 +3,7 @@ title: About Me
 description: "AI Engineer specializing in agentic AI systems, deterministic workflows, and scalable RAG pipelines. Azure & Databricks certified."
 keywords: "Andrés Espinosa Sanfiel, AI Engineer, Agentic AI, RAG, LangChain, PydanticAI, MCP Protocol, Azure, Databricks"
 author: "Andrés Espinosa Sanfiel"
-canonical_url: "https://yourdomain.com/"
+canonical_url: "https://sanfieldai.com/"
 ---
 
 <script type="application/ld+json">
@@ -11,7 +11,7 @@ canonical_url: "https://yourdomain.com/"
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Andrés Espinosa Sanfiel",
-  "url": "https://yourdomain.com/",
+  "url": "https://sanfieldai.com/",
   "image": "https://avatars.githubusercontent.com/Sanfiel91",
   "sameAs": [
     "https://www.linkedin.com/in/aesanfiel/",
