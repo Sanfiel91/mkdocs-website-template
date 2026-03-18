@@ -1,31 +1,27 @@
 ---
 title: About Me
-description: Explore AI, data science, and entrepreneurship with Dave Ebbelaar. Learn about Datalumina, AI tutorials, freelancing, and innovative AI solutions for businesses.
-keywords: Dave Ebbelaar, AI entrepreneur, Datalumina, AI tutorials, Data Freelancer, GenAI Launchpad
-author: Dave Ebbelaar
-canonical_url: https://www.daveebbelaar.com/
+description: "AI Engineer specializing in agentic AI systems, deterministic workflows, and scalable RAG pipelines. Azure & Databricks certified."
+keywords: "Andrés Espinosa Sanfiel, AI Engineer, Agentic AI, RAG, LangChain, PydanticAI, MCP Protocol, Azure, Databricks"
+author: "Andrés Espinosa Sanfiel"
+canonical_url: "https://yourdomain.com/"
 ---
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Dave Ebbelaar",
-  "url": "https://www.daveebbelaar.com/",
-  "image": "https://avatars.githubusercontent.com/u/34709402?v=4",
+  "name": "Andrés Espinosa Sanfiel",
+  "url": "https://yourdomain.com/",
+  "image": "https://avatars.githubusercontent.com/Sanfiel91",
   "sameAs": [
-    "https://www.youtube.com/channel/UCn8ujwUInbJkBhffxqAPBVQ",
-    "https://www.youtube.com/@daveebbelaar",
-    "https://www.linkedin.com/in/daveebbelaar/",
-    "https://github.com/daveebbelaar"
-    "https://www.skool.com/@daveebbelaar"
+    "https://www.linkedin.com/in/aesanfiel/",
+    "https://github.com/Sanfiel91"
   ],
-  "jobTitle": "Founder & CEO",
+  "jobTitle": "AI Engineer",
   "worksFor": {
     "@type": "Organization",
-    "name": "Datalumina",
-    "url": "https://www.datalumina.com/"
-  },
+    "name": "Sala Scala - The Wise Dreams"
+  }
 }
 </script>
 
@@ -33,27 +29,25 @@ canonical_url: https://www.daveebbelaar.com/
 
 <div class="text-intro-grid" markdown>
 
-# Turn AI complexity into your competitive advantage
+# Building Agentic AI Systems That Deliver Real Business Impact
 
-### I have 5+ years experience doing just that
+### 4+ years designing production-ready AI solutions
 
-- Are you struggling to keep up with the rapid pace of AI innovation?
+- Agentic AI systems with deterministic workflow orchestration — **70% reduction** in manual processing
 
-- Do you need help translating AI hype into real business results?
+- Scalable RAG pipelines with hybrid search — **40% improvement** in retrieval accuracy
 
-- Want to implement AI effectively before competitors get ahead?
+- Production AI APIs serving **500+ daily requests** with FastAPI and WebSocket support
 
-- Looking for technical expertise and a clear roadmap for AI solutions?
+- Hexagonal architecture for clean LLM decoupling and long-term maintainability
 
-- Need someone who understands both technical and business perspectives?
-
-[Book Free Intro Call :material-arrow-top-right:](https://www.calendly.com){ .md-button .md-button--primary }
+[Let's Connect :material-arrow-top-right:](https://www.linkedin.com/in/aesanfiel/){ .md-button .md-button--primary }
 
 </div>
 
 <div class="profile-image-grid" markdown>
 
-![Dave Ebbelaar, AI Entrepreneur and Educator](assets/@daveebbelaar.jpg){ .profile-image alt="Portrait of Dave Ebbelaar, AI entrepreneur and educator" }
+![Andrés Espinosa Sanfiel, AI Engineer](assets/andres-espinosa.png){ .profile-image alt="Portrait of Andrés Espinosa Sanfiel, AI Engineer" }
 
 </div>
 
@@ -61,9 +55,9 @@ canonical_url: https://www.daveebbelaar.com/
 
 ## About me
 
-Hi! I'm Dave, an entrepreneur and educator from the Netherlands. I work with technical professionals facing the overwhelming pace of AI innovation and businesses struggling to translate AI hype into competitive advantage. Whether you're a developer watching your skills becoming obsolete or a company unsure how to implement AI effectively—the challenge is the same: how to effectively use this technology before your competitors do.
+Hi! I'm Andrés, an AI Engineer based in Spain with a unique path from economics to artificial intelligence. I hold a Master's degree in Advanced and Applied AI from the University of Valencia and a Bachelor's in Economics, which gives me a dual perspective on both the technical and business sides of AI solutions.
 
-My artificial intelligence journey spans over a decade, with bachelor's and master's degrees in the field and experience building custom data and AI systems across utilities, government, and e-commerce sectors. My tech stack includes Python, PostgreSQL, ML, FastAPI, OpenAI, Claude, Azure, vector databases, RAG, and LLM integration for enterprise applications.
+My journey has taken me from data engineering and data science to specializing in agentic AI systems and production-ready AI products. I architect deterministic AI workflows using LangChain, PydanticAI, and Agno, build scalable RAG pipelines with hybrid search over OpenSearch, Qdrant, and PostgreSQL, and standardize tool connectivity via the MCP protocol. My stack includes Python, FastAPI, AWS, Azure, Docker, and MLflow for end-to-end AI solutions.
 
 ## Why work with me?
 
@@ -71,99 +65,109 @@ Here's what sets me apart and how I can help drive value for your business:
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-building-user:{ .lg .middle } Proven Business Experience
+-   :material-robot:{ .lg .middle } Agentic AI Expert
 
     ---
 
-    As the founder of Datalumina, I bring entrepreneurial insight to every project. I understand both the technical and business sides of AI implementation, ensuring solutions that deliver real ROI and align with your business goals.
+    Specializing in deterministic workflow orchestration with LangChain, PydanticAI, and Agno. I design multi-step agents, multi-agent systems, and standardize tool connectivity via the MCP protocol for reliable, production-grade AI automation.
 
--   :material-youtube:{ .lg .middle } Educator & Communicator
-
-    ---
-
-    My experience as a content creator and educator means I can break down complex technical concepts into clear, actionable insights. You'll always understand the 'why' behind technical decisions and get clear progress updates.
-
--   :material-school:{ .lg .middle } Industry Expert
+-   :material-rocket-launch:{ .lg .middle } Production-Ready Solutions
 
     ---
 
-    With over a decade in AI and data science, including work across utilities, government, and e-commerce sectors, I bring battle-tested expertise to your projects. My solutions are built on real-world experience, not just theory.
+    I build AI-driven products that work at scale — FastAPI APIs with WebSocket support serving 500+ daily requests, deployed on AWS (Lambda, ECS, S3) with Docker containerization and CI/CD pipelines for continuous delivery.
 
--   :material-rocket:{ .lg .middle } Fast Implementation
+-   :material-database-search:{ .lg .middle } RAG & Search Specialist
 
     ---
 
-    I specialize in rapid development and deployment of AI solutions. Using modern tools and proven frameworks, I can help you move from concept to production faster, giving you a competitive edge in today's fast-paced market.
+    Engineering hybrid search pipelines over OpenSearch, Qdrant, and PostgreSQL that combine vector and keyword search. Proven 40% improvement in domain-specific retrieval accuracy using hexagonal architecture for clean LLM decoupling.
+
+-   :material-certificate:{ .lg .middle } Cloud & MLOps Certified
+
+    ---
+
+    Azure AI Engineer, Azure Data Scientist, Databricks ML Associate, and Fabric Analytics Engineer certified. Experienced with MLflow for model tracking, versioning, and automated deployment pipelines across Azure and AWS.
 
 </div>
 
-## What my past clients say about my work
+## Certifications & Recognition
 
-<div class="grid cards testimonials" markdown>
+<div class="grid cards" markdown>
 
--   :material-format-quote-open:{ .lg .middle } Adrian Dragomir
-    
-    Founder at Sferal
+-   :material-microsoft:{ .lg .middle } [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b82aae16722c94fe){ target="_blank" }
 
     ---
 
-    "Dave is a true professional and my collaboration with him has been flawless. **He took his time and spent 3 days with me and my team in Mamaia, Romania where he was a guest for 3 sessions of my podcast Waves of AI**. He is one of the most competent people I know that has a real understanding of how AI works and how to integrate it quickly in your company."
+    Designing and implementing AI solutions on Azure, including cognitive services, knowledge mining, and natural language processing.
 
--   :material-format-quote-open:{ .lg .middle } Barbara van den Bosch
-    
-    Founder at Viverve
+-   :material-microsoft:{ .lg .middle } [Microsoft Certified: Azure Data Scientist Associate](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b5e0bd45059b634a){ target="_blank" }
 
     ---
 
-    "Together with Datalumina, we developed a tailor-made program where I, as a school leader, can now bring together vast amounts of information in one place and automate key tasks. **Beyond the tremendous quality improvement for our organization, working with Datalumina was an extremely pleasant experience**."
+    Implementing and running machine learning workloads on Azure, including experimentation, model training, and deployment.
 
--   :material-format-quote-open:{ .lg .middle } Rene Raaphorst
-    
-    Founder at Crypto Insiders
+-   :material-microsoft:{ .lg .middle } [Microsoft Certified: Fabric Analytics Engineer Associate](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b5d62cfc3a86d3a4){ target="_blank" }
 
     ---
 
-    "My experience with Datalumina has been excellent. **They think along with you every step of the way, from proof of concept to a fully functional product**. I was amazed by the quality of the results and found the collaboration very enjoyable. I highly recommend Dave and Datalumina to everyone!"
+    Designing, creating, and deploying enterprise-scale data analytics solutions using Microsoft Fabric.
 
--   :material-format-quote-open:{ .lg .middle } Kelsen
-    
-    Founder at Datavisum
+-   :material-microsoft:{ .lg .middle } [Microsoft Certified: Azure Fundamentals](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b223548422651062){ target="_blank" }
 
     ---
 
-    "I am thankful for having come across Dave and Data Freelancer, it was one of the best investment decisions I've made in 2024. **From effective ways to create inbound marketing strategies using social media, through solution architecture design to address all kinds of business challenges**, you will extract a great deal of value from diverse perspectives."
+    Foundational knowledge of cloud services and how those services are provided with Microsoft Azure.
+
+-   :fontawesome-solid-database:{ .lg .middle } [Databricks Certified Machine Learning Associate](https://credentials.databricks.com/6b2bbbc2-c75f-4ec9-9540-89d1879a3b98){ target="_blank" }
+
+    ---
+
+    Building and optimizing machine learning models using Databricks and Apache Spark ecosystem.
+
+-   :fontawesome-solid-database:{ .lg .middle } [Databricks Certified Apache Spark Developer](https://credentials.databricks.com/9e374e9e-e49d-47e2-966f-581d521c2f5a){ target="_blank" }
+
+    ---
+
+    Developing and optimizing ETL pipelines and large-scale data processing using Apache Spark 3.0.
+
+-   :material-microphone:{ .lg .middle } Technical Speaker — Datamecum Webinar 2025
+
+    ---
+
+    Presented "AI-Powered Email Automation: From Chaos to Action" — a production GenAI system demo using Pydantic-AI, RAG, and FastAPI.
 
 </div>
 
 ## Frequently asked questions
 
-??? note "How quickly can you start working on my project?"
-    I can typically begin new projects within 1-2 weeks of contract signing. For urgent matters, I maintain some flexibility for rapid response situations and can potentially start sooner - just let me know your timeline during our initial consultation.
+??? note "What technologies and frameworks do you specialize in?"
+    My core stack includes Python, FastAPI, LangChain, PydanticAI, Agno, and the MCP protocol for agentic AI systems. For search and retrieval, I work with OpenSearch, Qdrant, and PostgreSQL. On the cloud side, I'm certified and experienced with both AWS (Lambda, ECS, S3) and Azure (AI Services, ML). I also use Docker, CI/CD, and MLflow for production deployments.
 
-??? note "Do you require a minimum project size or commitment?"
-    While I can accommodate projects of any size, I find that engagements of at least 20 hours allow for meaningful impact. This gives us enough time to understand your data, implement solutions, and deliver actionable results. We can start with a small pilot project to ensure we're a good fit.
+??? note "What kind of projects are you best suited for?"
+    I'm at my best with projects that involve agentic AI systems, RAG pipelines, and AI-driven product development. Whether it's automating complex workflows, building intelligent search systems, or deploying production-ready AI APIs — these are the challenges I enjoy most. I've delivered solutions across competitive analysis, email automation, and enterprise knowledge management.
 
-??? note "What industries do you have experience in?"
-    I've successfully delivered projects across e-commerce, manufacturing, healthcare, and financial services. While I specialize in data science fundamentals that apply across sectors, I particularly excel in projects involving customer behavior analysis, process optimization, and predictive modeling.
+??? note "Are you available for freelance or contract work?"
+    Yes, I'm open to freelance, contract, and full-time opportunities. I'm based in Spain with geographic availability for remote work across Europe. Feel free to reach out via LinkedIn or email to discuss your project.
 
-??? note "How do you handle data security and confidentiality?"
-    I take data security extremely seriously. I sign comprehensive NDAs before starting any project, use enterprise-grade encryption for all data transfers, and follow industry best practices for data handling. I can also work within your existing security infrastructure and policies.
+??? note "What languages do you work in?"
+    I'm fluent in both English and Spanish, and comfortable working in bilingual teams and international environments. All my technical documentation and code is in English.
 
-??? note "What's your pricing structure?"
-    I offer both project-based and retainer pricing models. Project fees are based on scope, complexity, and value delivered rather than hours worked. For ongoing support, I offer flexible retainer packages. Let's discuss your specific needs during our consultation to determine the most cost-effective approach.
+??? note "How do you approach a new AI project?"
+    I start by understanding the business problem and defining clear success metrics. Then I design the architecture — choosing the right combination of LLM frameworks, databases, and infrastructure. I prioritize clean architecture (hexagonal/ports-and-adapters) for maintainability, and deliver iteratively with production-readiness in mind from day one.
 
-??? note "How do you communicate progress and results?"
-    I maintain clear communication through weekly progress updates and regular check-in meetings. You'll receive detailed documentation of all analyses, findings, and recommendations. For ongoing projects, I provide interactive dashboards and reports that allow you to track progress and results in real-time.
+??? note "What sets you apart from other AI engineers?"
+    My background in economics gives me a strong business perspective that complements my technical skills. I don't just build AI systems — I build AI products that solve real problems. Combined with multiple Azure and Databricks certifications, hands-on production experience, and a track record of measurable impact (70% reduction in manual processing, 40% retrieval accuracy improvement), I bring both depth and breadth to every project.
 
 
 <div class="grid cards" style="margin-top: 3rem" markdown>
 
--   :material-coffee:{ .lg .middle } Let's have a virtual coffee together!
+-   :material-linkedin:{ .lg .middle } Let's connect and build something great!
 
     ---
-    
-    Want to see if we're a match? Let's have a chat and find out. Schedule a free 30-minute strategy session to discuss your AI challenges and explore how we can work together.
 
-    [Book Free Intro Call :material-arrow-top-right:](https://calendly.com){ .md-button .md-button--primary }
+    Interested in collaborating on AI projects? I'd love to discuss how agentic AI systems and RAG pipelines can transform your workflows. Let's connect on LinkedIn.
+
+    [Let's Connect :material-arrow-top-right:](https://www.linkedin.com/in/aesanfiel/){ .md-button .md-button--primary }
 
 </div>

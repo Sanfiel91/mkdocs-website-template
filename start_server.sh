@@ -1,10 +1,8 @@
 #!/bin/bash
 
-# Build the image if it doesn't exist
-if ! docker image inspect mkdocs-site >/dev/null 2>&1; then
-    echo "Building Docker image..."
-    docker build -t mkdocs-site .
-fi
+# Rebuild the image to pick up any Dockerfile changes
+echo "Building Docker image..."
+docker build -t mkdocs-site .
 
 echo "Starting MkDocs server..."
 docker run --rm -it \

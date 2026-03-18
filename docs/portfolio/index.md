@@ -1,24 +1,30 @@
 ---
-title: Case Studies
-description: Datalumina B.V. is a data, analytics, and artificial intelligence company founded by Dave Ebbelaar to help businesses integrate AI and data into their operations. 
+title: Portfolio
+description: "Featured AI engineering projects — agentic systems, RAG pipelines, and production-ready AI products by Andrés Espinosa Sanfiel."
 ---
 
 # Featured Projects
 
-Welcome to my portfolio of data science and AI projects. Each project demonstrates my expertise in delivering impactful solutions to real-world business challenges.
+Welcome to my portfolio of AI engineering projects. Each project demonstrates my expertise in building agentic AI systems, scalable RAG pipelines, and production-ready AI solutions that deliver measurable business impact.
 
 <div class="grid cards" markdown>
 
--   [AI Customer Care Bot for Dev X](projects/project-1.md)
+-   [AI-Powered Email Automation System](projects/agentic-email-automation.md)
 
     ---
 
-    An AI-powered chatbot solution for Dev X that enables customer service transformation, featuring Slack integration and sub-3 second response times. Built with OpenAI, Pinecone, and Azure cloud infrastructure to achieve 100% accuracy on initial datasets.
+    A production GenAI email automation system that reduced daily email triage from 100+ items to 10-15 actionable items. Built with Pydantic-AI, RAG, and FastAPI. Presented at Datamecum Webinar 2025.
 
--   [Enterprise Chatbot for Company Y](projects/project-2.md)
+-   [Hybrid Search RAG Pipeline](projects/rag-hybrid-search-pipeline.md)
 
     ---
 
-    A private ChatGPT-like tool for the Company Y that revolutionizes mobility data analysis by combining structured SQL data with unstructured policy documents. Built with OpenAI and modern cloud architecture for comprehensive public sector policy evaluation.
+    An enterprise RAG pipeline combining OpenSearch and Qdrant vector databases with hybrid search strategies, achieving a 40% improvement in domain-specific information retrieval accuracy.
+
+-   [Production AI API Platform](projects/enterprise-ai-products.md)
+
+    ---
+
+    Agentic AI systems with deterministic workflow orchestration using LangChain, serving 500+ daily API requests on AWS. Reduced manual competitive analysis processing time by 70%.
 
 </div>

@@ -1,17 +1,18 @@
-site_name: Your Site Name
-site_description: Your site description
+site_name: Andrés Espinosa Sanfiel
+site_description: AI Engineer specializing in agentic AI systems, RAG pipelines, and production-ready AI solutions. Azure & Databricks certified.
 site_url: https://yourdomain.com
 
 nav:
   - Home:
     - About: index.md
-  - Case Studies:
+  - Portfolio:
     - Overview: portfolio/index.md
     - Projects:
-      - portfolio/projects/project-1.md
-      - portfolio/projects/project-2.md
+      - portfolio/projects/agentic-email-automation.md
+      - portfolio/projects/rag-hybrid-search-pipeline.md
+      - portfolio/projects/enterprise-ai-products.md
   - Blog:
-    - blog/index.md 
+    - blog/index.md
 
 theme:
   name: material
@@ -45,20 +46,18 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: material/slash-forward-box
+    logo: material/robot-outline
   favicon: assets/favicon.png
 
 extra:
   generator: true
   social:
-    - icon: fontawesome/solid/building
-      link: https://company.com
     - icon: fontawesome/brands/github
-      link: https://github.com/
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/
+      link: https://github.com/Sanfiel91
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com
+      link: https://www.linkedin.com/in/aesanfiel/
+    - icon: fontawesome/solid/envelope
+      link: mailto:aesanfiel91@gmail.com
   analytics:
     # provider: google
     # property: G-W9Y130NXVZ
@@ -98,8 +97,6 @@ markdown_extensions:
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js
 
-extra_files:
-  - docs/robots.txt
 
 copyright: |
-  &copy; 2024 <a href="https://www.linkedin.com" target="_blank" rel="noopener">John Doe</a>. All rights reserved.
+  &copy; 2025 <a href="https://www.linkedin.com/in/aesanfiel/" target="_blank" rel="noopener">Andrés Espinosa Sanfiel</a>. All rights reserved.
