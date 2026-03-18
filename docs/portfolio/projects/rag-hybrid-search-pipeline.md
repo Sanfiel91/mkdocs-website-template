@@ -23,6 +23,9 @@ Knowledge-intensive applications require highly accurate information retrieval f
 
 ## Approach & Architecture
 
+![Architecture diagram — Hybrid Search RAG Pipeline](../../assets/diagrams/rag-hybrid-search-architecture.png)
+*High-level architecture: query routing, hybrid retrieval (OpenSearch + Qdrant), fusion, and LLM integration.*
+
 I engineered a retrieval architecture that combines vector and keyword search without locking the system into a single retrieval strategy:
 
 - **OpenSearch** for keyword retrieval and exact-term matching where BM25 performs best.
@@ -57,7 +60,7 @@ This made it easier to test, replace, and iterate on each part of the stack with
 
     ---
 
-    If your application struggles with information retrieval or you need a production-ready RAG pipeline, book a short call and we can explore whether hybrid search is the right next step.
+    If your application struggles with retrieval accuracy or you need a production-ready RAG pipeline, let's explore whether hybrid search is the right next step.
 
     [Book Free Intro Call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary target="_blank" rel="noopener" }
 

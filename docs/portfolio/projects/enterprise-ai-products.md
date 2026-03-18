@@ -23,6 +23,9 @@ Complex competitive analysis tasks required analysts to manually gather, process
 
 ## Approach & Architecture
 
+![Architecture diagram — Production AI API Platform](../../assets/diagrams/ai-api-platform-architecture.png)
+*High-level architecture: agentic orchestration, FastAPI service layer, WebSocket streaming, and AWS deployment.*
+
 I designed the platform as a production service layer for multi-step AI workflows:
 
 - **LangChain** for multi-step agentic workflows broken into repeatable and observable subtasks.
@@ -57,7 +60,7 @@ The platform was designed to handle multiple concurrent analysis requests while 
 
     ---
 
-    If your team spends too much time on manual analysis or needs AI-driven automation at scale, book a short call and we can assess the right agentic architecture for your operations.
+    If your team spends too much time on manual analysis or needs AI-powered automation at scale, let's assess whether an agentic architecture fits your operations.
 
     [Book Free Intro Call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary target="_blank" rel="noopener" }
 

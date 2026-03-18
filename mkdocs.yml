@@ -1,5 +1,5 @@
 site_name: Andrés Espinosa Sanfiel
-site_description: AI consultant and engineer building agentic AI systems, hybrid RAG pipelines, and production-ready AI platforms for measurable business outcomes.
+site_description: "AI Engineer helping teams ship production agentic AI systems, RAG pipelines, and AI APIs. Based in Spain, available remotely across Europe."
 site_url: https://sanfieldai.com
 
 nav:
@@ -57,8 +57,8 @@ extra:
     - icon: fontawesome/solid/envelope
       link: mailto:aesanfiel91@gmail.com
   analytics:
-    # provider: google
-    # property: G-W9Y130NXVZ
+    provider: google
+    property: G-XXXXXXXXXX
 
 extra_css:
   - stylesheets/extra.css

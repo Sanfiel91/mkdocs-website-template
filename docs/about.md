@@ -1,6 +1,6 @@
 ---
 title: About Andrés Espinosa Sanfiel
-description: "About Andrés Espinosa Sanfiel — AI consultant and engineer specializing in agentic AI systems, hybrid RAG pipelines, and production AI delivery."
+description: "About Andrés Espinosa Sanfiel — AI Engineer with 4+ years in data science, data engineering, and production AI delivery. Azure and Databricks certified."
 author: "Andrés Espinosa Sanfiel"
 canonical_url: "https://sanfieldai.com/about/"
 ---
@@ -15,22 +15,27 @@ My background combines economics, data engineering, data science, and AI product
 
 ## Professional Experience
 
+### Capgemini | AI Engineer
+**Mar 2026 - Present**
+
+- Working as an AI Engineer on enterprise AI initiatives with a focus on production-ready delivery.
+
 ### Sala Scala - The Wise Dreams | AI Engineer
-**Sep 2024 - Present**
+**Sep 2024 - Mar 2026**
 
 - Designed agentic AI systems with deterministic orchestration, reducing manual competitive analysis processing time by 70%.
 - Built production FastAPI services with WebSocket support serving 500+ daily API requests for live AI workloads.
 - Engineered hybrid RAG pipelines over OpenSearch and Qdrant, improving domain-specific retrieval accuracy by 40%.
 - Delivered a production GenAI email automation system presented publicly at Datamecum Webinar 2025.
 
-### ElasticCloud | Data Scientist
+### ElastaCloud | Data Scientist
 **Oct 2022 - Mar 2024**
 
 - Developed and deployed RAG applications using Azure Cognitive Services, large language models, Python, and FastAPI.
 - Automated AI solutions with Docker, Azure services, and production-minded deployment workflows.
 - Implemented MLOps practices including experiment tracking, model versioning, and deployment pipelines with MLflow.
 
-### ElasticCloud | Intern Data Engineer
+### ElastaCloud | Intern Data Engineer
 **Nov 2021 - Oct 2022**
 
 - Contributed to Apache Spark ETL pipelines and large-scale data preparation workflows.
@@ -72,25 +77,25 @@ My background combines economics, data engineering, data science, and AI product
 
     ---
 
-    LangChain, PydanticAI, Agno, MCP protocol, deterministic workflows, multi-step agents, and tool orchestration.
+    LangChain, LangGraph, PydanticAI, Agno, MCP protocol, OpenAI API, deterministic workflows, multi-step agents, and tool orchestration.
 
 -   :material-database-search:{ .lg .middle } Retrieval & Data
 
     ---
 
-    OpenSearch, Qdrant, PostgreSQL, PySpark, SQL, and domain-specific search architectures that combine vector and keyword retrieval.
+    OpenSearch, Qdrant, PostgreSQL/pgVector, Redis, PySpark, SQL, and domain-specific search architectures that combine vector and keyword retrieval.
 
 -   :material-api:{ .lg .middle } Platforms & Cloud
 
     ---
 
-    Python, FastAPI, WebSockets, AWS, Azure, Docker, ECS, Lambda, S3, and backend APIs built for real usage.
+    Python, FastAPI, WebSockets, AWS (Lambda, ECS, S3, DynamoDB, EventBridge), Azure, Docker, and backend APIs built for real usage.
 
 -   :material-chart-box-outline:{ .lg .middle } Delivery & MLOps
 
     ---
 
-    CI/CD, MLflow, model tracking, deployment workflows, and hexagonal architecture for maintainability and decoupling.
+    CI/CD, MLflow, LangSmith, Langfuse, model tracking, deployment workflows, and hexagonal architecture for maintainability and decoupling.
 
 </div>
 

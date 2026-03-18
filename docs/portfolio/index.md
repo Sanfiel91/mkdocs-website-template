@@ -1,11 +1,13 @@
 ---
 title: Portfolio
-description: "Selected case studies in agentic AI, hybrid RAG, and production AI delivery by Andrés Espinosa Sanfiel."
+description: "AI Engineering case studies: agentic email automation, hybrid RAG pipelines, and production AI API platforms with measurable business outcomes."
 ---
 
 # Selected Case Studies
 
 These projects show how I approach business problems that require more than a prototype. The focus is on measurable outcomes, maintainable architecture, and production-minded delivery across automation, retrieval, and AI platform work.
+
+These case studies come from my most recent engagement building AI systems for a European company operating in competitive intelligence and enterprise automation. Each project addressed a distinct technical challenge and delivered measurable business outcomes.
 
 <div class="grid cards" markdown>
 

@@ -1,6 +1,6 @@
 ---
 title: AI Consultant & Engineer
-description: "AI consultant and engineer building agentic AI systems, hybrid RAG pipelines, and production-ready AI platforms for teams that need measurable outcomes."
+description: "AI Engineer helping teams ship production agentic AI systems, RAG pipelines, and AI APIs. Based in Spain, available remotely across Europe."
 keywords: "Andrés Espinosa Sanfiel, AI consultant, AI engineer, agentic AI, RAG, LangChain, PydanticAI, MCP Protocol, Azure, Databricks, production AI"
 author: "Andrés Espinosa Sanfiel"
 canonical_url: "https://sanfieldai.com/"
@@ -39,9 +39,9 @@ canonical_url: "https://sanfieldai.com/"
 
 <p class="hero-eyebrow">AI Consultant & Engineer</p>
 
-# Agentic AI systems that make it to production
+# I help teams ship AI systems that actually make it to production
 
-### I help teams design, ship, and harden agentic workflows, hybrid RAG pipelines, and AI APIs that deliver measurable business results.
+### From agentic workflows and RAG pipelines to production AI APIs — I design, build, and harden AI systems that deliver measurable business results.
 
 - Deterministic orchestration for multi-step AI workflows and human-in-the-loop automation
 
@@ -52,11 +52,11 @@ canonical_url: "https://sanfieldai.com/"
 - Based in Spain and available for remote collaboration across Europe in English and Spanish
 
 <div class="hero-actions" markdown>
-[Book Free Intro Call :material-calendar-month-outline:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary target="_blank" rel="noopener" }
+[Let's talk about your AI challenge :material-calendar-month-outline:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary target="_blank" rel="noopener" }
 [Connect on LinkedIn :fontawesome-brands-linkedin:](https://www.linkedin.com/in/aesanfiel/){ .md-button target="_blank" rel="noopener" }
 </div>
 
-<p class="hero-proof">4+ years across AI engineering, data science, and data platforms. Azure and Databricks certified, with production systems serving daily workloads.</p>
+<p class="hero-proof">4+ years across data science, data engineering, and AI platforms — with a dedicated focus on agentic AI and RAG systems since 2024. Azure and Databricks certified, with production systems serving daily workloads.</p>
 
 </div>
 
@@ -78,7 +78,7 @@ canonical_url: "https://sanfieldai.com/"
 
     ---
 
-    I design deterministic AI workflows with LangChain, PydanticAI, Agno, and the MCP protocol so multi-step systems stay reliable, testable, and useful in real operations.
+    I design deterministic AI workflows with LangChain, LangGraph, PydanticAI, Agno, and the MCP protocol so multi-step systems stay reliable, testable, and useful in real operations.
 
 -   :material-database-search:{ .lg .middle } RAG & Search Systems
 
@@ -127,8 +127,6 @@ canonical_url: "https://sanfieldai.com/"
 </div>
 
 ## Certifications & Recognition
-
-<p class="section-intro">I have restored the credential links so you can access the original certification pages directly from the site.</p>
 
 <div class="grid cards" markdown>
 
@@ -206,7 +204,9 @@ canonical_url: "https://sanfieldai.com/"
 
 <div class="about-preview" markdown>
 
-I bring a mix of economics, data engineering, data science, and production AI delivery. That combination helps me translate business requirements into architectures that are measurable, maintainable, and ready for real users.
+Most AI engineers build prototypes. I focus on what happens after the demo — turning AI systems into production services that teams can actually depend on.
+
+My background in economics means I think about AI in terms of business outcomes, not just technical elegance. Combined with hands-on experience across data engineering, data science, and production AI delivery, I bring a perspective where systems need to be both technically sound and operationally realistic.
 
 [Read About Me :material-arrow-right:](about.md){ .md-button .md-button--primary }
 
@@ -215,7 +215,7 @@ I bring a mix of economics, data engineering, data science, and production AI de
 ## Frequently Asked Questions
 
 ??? note "What technologies and frameworks do you specialize in?"
-    My core stack includes Python, FastAPI, LangChain, PydanticAI, Agno, and the MCP protocol for agentic AI systems. For retrieval and data, I work with OpenSearch, Qdrant, PostgreSQL, PySpark, and SQL. I deploy across AWS and Azure with Docker, CI/CD, and MLOps practices when the use case needs them.
+    My core stack includes Python, FastAPI, LangChain, LangGraph, PydanticAI, Agno, and the MCP protocol for agentic AI systems. For retrieval and data, I work with OpenSearch, Qdrant, PostgreSQL/pgVector, Redis, PySpark, and SQL. I deploy across AWS and Azure with Docker, CI/CD, LangSmith, Langfuse, and MLOps practices when the use case needs them.
 
 ??? note "What kind of projects are you best suited for?"
     I am at my best when the challenge is moving an AI idea into a production-ready system. That includes agentic workflow automation, hybrid RAG and search, and AI APIs that need to serve real users with clear business outcomes.
@@ -232,11 +232,18 @@ I bring a mix of economics, data engineering, data science, and production AI de
 ??? note "What sets you apart from other AI engineers?"
     My background in economics gives me a strong business perspective that complements the engineering work. I do not treat AI as a demo layer. I focus on systems that can be defended technically, measured operationally, and improved over time without rebuilding everything from scratch.
 
+??? note "How does pricing work?"
+    I typically work on a project basis with clear deliverables and milestones. For ongoing engagements, I offer monthly retainers. Every project starts with a free intro call where we discuss scope, timeline, and budget fit before any commitment.
+
+??? note "What does a typical engagement timeline look like?"
+    Most projects start with a 2-4 week proof of concept or architecture review. From there, we can scale into a full implementation phase. I usually work in 2-week sprint cycles with regular check-ins so you always know where things stand.
+
 ## Start the Conversation
 
 <p class="section-intro">If you need help evaluating an AI opportunity, de-risking an architecture, or moving a prototype into production, I’m happy to discuss fit and next steps.</p>
 
 <div class="hero-actions" markdown>
-[Book Free Intro Call :material-calendar-month-outline:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary target="_blank" rel="noopener" }
+[Book a free 30-minute intro call :material-calendar-month-outline:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary target="_blank" rel="noopener" }
 [LinkedIn :fontawesome-brands-linkedin:](https://www.linkedin.com/in/aesanfiel/){ .md-button target="_blank" rel="noopener" }
+[GitHub :fontawesome-brands-github:](https://github.com/Sanfiel91){ .md-button target="_blank" rel="noopener" }
 </div>
