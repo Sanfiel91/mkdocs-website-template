@@ -18,21 +18,16 @@ hide:
 
 <p class="hero-eyebrow">AI Engineer for production delivery</p>
 
-# I help teams turn promising AI pilots into production systems with clear business impact
+# Production-ready AI systems for teams moving beyond prototypes
 
-### From deterministic agent workflows to hybrid retrieval and API delivery, I design AI systems that can survive real users, real edge cases, and real operational constraints.
-
-- Deterministic orchestration for multi-step AI workflows and human-in-the-loop automation
-- Hybrid retrieval over OpenSearch, Qdrant, and PostgreSQL for better domain accuracy
-- Production delivery with FastAPI, AWS, Azure, Docker, CI/CD, and clean architecture
-- Remote collaboration across Europe in English and Spanish
+I help teams turn AI pilots into reliable systems using RAG, APIs, and agent-based workflows.
 
 <div class="hero-actions" markdown>
 [Book an intro call :material-calendar-month-outline:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="hero_intro_call" target="_blank" rel="noopener" }
-[Connect on LinkedIn :fontawesome-brands-linkedin:](https://www.linkedin.com/in/aesanfiel/){ .md-button .track-conversion data-conversion-label="hero_linkedin" target="_blank" rel="noopener" }
+[View my work :material-arrow-right:](portfolio/index.md){ .md-button .track-conversion data-conversion-label="hero_portfolio" }
 </div>
 
-<p class="hero-proof">4+ years across data science, data engineering, and AI platforms, with a dedicated focus on agentic AI and retrieval systems since 2024. Azure and Databricks certified, with production systems supporting daily workloads.</p>
+<p class="hero-proof">4+ years across data science, data engineering, and AI platforms, with hands-on delivery in agentic AI, hybrid retrieval, and production APIs.</p>
 
 <div class="proof-strip">
   <span class="proof-chip">70% less manual processing</span>
@@ -50,35 +45,35 @@ hide:
 
 </div>
 
-## Where AI initiatives usually stall
+## Problems I help solve
 
-<p class="section-intro">Most teams do not need more AI demos. They need a sharper path from business problem to architecture, observability, and an operating model that can hold up in production.</p>
+<p class="section-intro">Common gaps when an AI demo needs to become a dependable system.</p>
 
 <div class="grid cards problem-grid" markdown>
 
--   :material-flask-empty-outline:{ .lg .middle } **Strong prototype, weak production plan**
+-   :material-flask-empty-outline:{ .lg .middle } **The demo works, but production still feels fragile**
 
     ---
 
-    The model looks impressive in a notebook, but the workflow breaks when routing, retries, human review, and system boundaries are added.
+    The model looks good in a notebook, but the workflow breaks once routing, retries, human review, and system boundaries are added.
 
--   :material-database-alert-outline:{ .lg .middle } **Retrieval quality is too inconsistent**
-
-    ---
-
-    Pure vector search misses exact business terms, pure keyword search misses intent, and the team cannot explain why answers drift.
-
--   :material-timeline-alert-outline:{ .lg .middle } **No clear delivery path**
+-   :material-database-alert-outline:{ .lg .middle } **Retrieval quality is inconsistent**
 
     ---
 
-    Product, data, and engineering all see the opportunity, but nobody owns the architecture that turns the idea into a reliable service.
+    Vector search misses exact business terms, keyword search misses intent, and answers drift too much to trust.
+
+-   :material-timeline-alert-outline:{ .lg .middle } **No one is shaping the production path**
+
+    ---
+
+    Product, data, and engineering all see the opportunity, but nobody is defining the architecture that turns it into a reliable service.
 
 </div>
 
-## How I help
+## What I do
 
-<p class="section-intro">I work best with teams that need more than a proof of concept. The objective is to make AI useful, measurable, and maintainable without trapping the business in a brittle stack.</p>
+<p class="section-intro">I focus on making AI systems reliable, measurable, and easier to operate.</p>
 
 <div class="grid cards service-cards" markdown>
 
@@ -102,47 +97,42 @@ hide:
 
 </div>
 
-## Proof from recent engagements
+## Featured case studies
 
-<p class="section-intro">These are the kinds of outcomes I optimize for when I work with product and engineering teams.</p>
+<p class="section-intro">Three recent projects with measurable production outcomes.</p>
 
-<div class="grid cards" markdown>
+<div class="grid cards featured-card" markdown>
 
--   :material-chart-timeline-variant:{ .lg .middle } **70% less manual processing**
-
-    ---
-
-    Designed deterministic AI workflows that reduced competitive analysis processing time by 70%.
-
--   :material-database-search:{ .lg .middle } **40% better retrieval accuracy**
+-   [AI-Powered Email Automation System](portfolio/projects/agentic-email-automation.md)
 
     ---
 
-    Built hybrid search pipelines over OpenSearch and Qdrant, improving domain-specific retrieval performance by 40%.
+    Production GenAI workflow that reduced daily email triage from 100+ items to 10-15 actionable items using PydanticAI, RAG, and FastAPI.
 
--   :material-api:{ .lg .middle } **500+ daily API requests**
-
-    ---
-
-    Delivered production FastAPI services with real-time capabilities and daily usage in live environments.
-
--   :material-certificate:{ .lg .middle } **Certified and field-tested**
+-   [Production AI API Platform](portfolio/projects/enterprise-ai-products.md)
 
     ---
 
-    Azure AI Engineer, Azure Data Scientist, Fabric Analytics, and Databricks certified, with hands-on delivery across AI engineering and data platforms.
+    Deterministic AI workflows with FastAPI, WebSockets, and AWS infrastructure. Result: 70% less manual processing and 500+ daily API requests served.
+
+-   [Hybrid Search RAG Pipeline](portfolio/projects/rag-hybrid-search-pipeline.md)
+
+    ---
+
+    Retrieval architecture combining OpenSearch and Qdrant to improve domain accuracy by 40% while keeping the LLM layer decoupled.
 
 </div>
 
 <div class="cta-panel" markdown>
 
-## Need an external AI engineer who can close the gap from POC to production?
+## Need help turning a useful AI prototype into a production system?
 
-I can help with architecture reviews, greenfield delivery, or hardening an existing AI system that already proved the business case but still needs a reliable production shape.
+If the business case is already clear but the delivery path still feels fragile, I can help define the architecture, the delivery risks, and the next implementation steps.
 
 <div class="cta-actions" markdown>
 [Book a free intro call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="midpage_intro_call" target="_blank" rel="noopener" }
 [Send an email :fontawesome-solid-envelope:](https://mail.google.com/mail/?view=cm&fs=1&to=aesanfiel91@gmail.com){ .md-button .track-conversion data-conversion-label="midpage_email" target="_blank" rel="noopener" }
+[Let's connect on LinkedIn :fontawesome-brands-linkedin:](https://www.linkedin.com/in/aesanfiel/){ .md-button .track-conversion data-conversion-label="midpage_linkedin" target="_blank" rel="noopener" }
 </div>
 
 <p class="contact-inline"><span><strong>Phone:</strong> <a href="tel:+34632669360">+34 632 669 360</a></span></p>
@@ -155,9 +145,11 @@ I can help with architecture reviews, greenfield delivery, or hardening an exist
   <div class="webinar-text">
     <span class="webinar-eyebrow">Datamecum Webinar 2025</span>
     <h3>AI-Powered Email Automation: From Chaos to Action</h3>
-    <p>I presented the full architecture, design decisions, and production results of an email automation system that reduced daily triage from 100+ items to 10-15 actionable items — built with PydanticAI, RAG, and FastAPI.</p>
+    <p>A public walkthrough of a production email automation system that reduced daily triage from 100+ messages to 10-15 actionable items.</p>
     <div class="cta-actions">
-      <a href="portfolio/projects/agentic-email-automation/" class="md-button md-button--primary">Read the case study :material-arrow-right:</a>
+      <a href="portfolio/projects/agentic-email-automation/" class="md-button md-button--primary">
+        Read the case study <span class="twemoji" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span>
+      </a>
     </div>
   </div>
   <div class="webinar-video">
@@ -165,45 +157,6 @@ I can help with architecture reviews, greenfield delivery, or hardening an exist
       <img src="https://img.youtube.com/vi/cECPFYFLAVw/maxresdefault.jpg" alt="Watch Datamecum Webinar 2025 — AI-Powered Email Automation" loading="lazy">
     </a>
   </div>
-</div>
-
-## Featured case studies
-
-<p class="section-intro">The case studies below show how I approach workflow automation, retrieval quality, and production delivery from business problem to measurable result.</p>
-
-<div class="grid cards featured-card" markdown>
-
--   [AI-Powered Email Automation System](portfolio/projects/agentic-email-automation.md)
-
-    ---
-
-    Production GenAI workflow that reduced daily email triage from 100+ items to 10-15 actionable items using PydanticAI, RAG, and FastAPI. Presented publicly at Datamecum Webinar 2025.
-
--   [Production AI API Platform](portfolio/projects/enterprise-ai-products.md)
-
-    ---
-
-    Multi-step agentic workflows with deterministic orchestration, FastAPI, WebSockets, and AWS infrastructure. Result: 70% less manual processing and 500+ daily API requests served.
-
--   [Hybrid Search RAG Pipeline](portfolio/projects/rag-hybrid-search-pipeline.md)
-
-    ---
-
-    Retrieval architecture combining OpenSearch and Qdrant to improve domain accuracy, support diverse query types, and keep the LLM layer decoupled.
-
-</div>
-
-<div class="cta-panel" markdown>
-
-## Looking at a similar problem inside your business?
-
-The fastest way to see whether AI is worth pursuing is usually a concrete architecture discussion, not another abstract brainstorming session.
-
-<div class="cta-actions" markdown>
-[Review the portfolio :material-arrow-right:](portfolio/index.md){ .md-button .md-button--primary }
-[Book a discovery call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .track-conversion data-conversion-label="portfolio_intro_call" target="_blank" rel="noopener" }
-</div>
-
 </div>
 
 ## What an engagement usually looks like
@@ -214,19 +167,19 @@ The fastest way to see whether AI is worth pursuing is usually a concrete archit
 
     ---
 
-    We align on the business outcome, where AI belongs in the workflow, what should stay deterministic, and how success will be measured.
+    We align on the business outcome, where AI belongs in the workflow, and how success will be measured.
 
 -   :material-sitemap-outline:{ .lg .middle } **2. Build the right architecture**
 
     ---
 
-    I design the workflow, retrieval layer, contracts, observability, and deployment model so the system can evolve without rewrites.
+    I design the workflow, retrieval layer, contracts, observability, and deployment model around real operating constraints.
 
 -   :material-clipboard-check-outline:{ .lg .middle } **3. Harden for handoff**
 
     ---
 
-    The result is not only a functioning system, but a codebase and delivery path your team can operate and extend with confidence.
+    The outcome is a system your team can run, extend, and evaluate with confidence.
 
 </div>
 
@@ -238,50 +191,50 @@ The fastest way to see whether AI is worth pursuing is usually a concrete archit
 
     ---
 
-    Designing and implementing AI solutions on Azure, including cognitive services, knowledge mining, and natural language processing.
+    Azure AI solution design and delivery across language, knowledge, and automation workloads.
 
 -   :material-microsoft:{ .lg .middle } [Microsoft Certified: Azure Data Scientist Associate](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b5e0bd45059b634a){ target="_blank" rel="noopener" }
 
     ---
 
-    Implementing and running machine learning workloads on Azure, including experimentation, model training, and deployment.
+    Azure machine learning experimentation, training, deployment, and model operations.
 
 -   :fontawesome-solid-database:{ .lg .middle } [Databricks Certified Machine Learning Associate](https://credentials.databricks.com/6b2bbbc2-c75f-4ec9-9540-89d1879a3b98){ target="_blank" rel="noopener" }
 
     ---
 
-    Building and optimizing machine learning models using Databricks and the Apache Spark ecosystem.
+    Machine learning delivery using Databricks and the Apache Spark ecosystem.
 
 -   :material-microphone:{ .lg .middle } [Technical speaker - Datamecum Webinar 2025](https://youtu.be/cECPFYFLAVw?si=dh9k_iqe5bDFC_fv&t=472){ target="_blank" rel="noopener" }
 
     ---
 
-    Public session on an email automation system built with PydanticAI, RAG, FastAPI, and production delivery constraints.
+    Public session on a production email automation system built with PydanticAI, RAG, and FastAPI.
 
 </div>
 
 ## Frequently asked questions
 
 ??? note "What kind of projects are you best suited for?"
-    I am at my best when the challenge is moving an AI idea into a production-ready system. That includes agentic workflow automation, hybrid RAG and search, and AI APIs that need to serve real users with clear business outcomes.
+    Projects where AI already looks useful, but the team still needs a production-ready architecture. That includes agentic workflows, hybrid RAG, and AI APIs serving real users.
 
 ??? note "Can you work with an internal engineering team?"
-    Yes. I can work as an individual contributor, as a technical partner for an internal team, or as the person who turns an early proof of concept into a more robust architecture.
+    Yes. I can work independently or as a technical partner embedded with an internal product or engineering team.
 
 ??? note "How do you approach delivery?"
-    I start from the business problem, define success metrics, and then design the system around reliability and maintainability. I favor deterministic workflows, clear interfaces, and clean architecture so the solution is easier to evaluate, test, and evolve.
+    I start with the business goal and success metrics, then design around reliability, observability, and maintainability.
 
 ??? note "Where are you available?"
-    I am based in Spain and open to remote work across Europe. I work in both English and Spanish and can support freelance, contract, and selected long-term engagements.
+    I am based in Spain and available remotely across Europe. I work in English and Spanish.
 
 ??? note "How does pricing work?"
-    I typically work on a project basis with clear deliverables and milestones. For ongoing engagements, I offer monthly retainers. Every project starts with an intro call where we discuss scope, timeline, and budget fit.
+    Most work is project-based with clear milestones. Ongoing support can be structured as a retainer after the initial call.
 
 <div class="cta-panel" markdown>
 
 ## Ready to evaluate your AI backlog?
 
-Bring the current problem, the stack you already have, and the delivery constraints that matter. I will help you map what should be automated, what should remain deterministic, and what it would take to ship it safely.
+Bring the current problem, the stack you already have, and the delivery constraints that matter. I will help map what should be automated, what should stay deterministic, and what it will take to ship it safely.
 
 <div class="cta-actions" markdown>
 [Book an intro call :material-calendar-month-outline:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="footer_intro_call" target="_blank" rel="noopener" }

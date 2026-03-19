@@ -121,6 +121,6 @@ Puedo ayudarte a evaluar la forma técnica, el riesgo de entrega y el encaje de 
 [Revisar casos de estudio :material-arrow-right:](portfolio/index.md){ .md-button }
 </div>
 
-<p class="contact-inline"><span><strong>Email:</strong> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aesanfiel91@gmail.com" target="_blank" rel="noopener">aesanfiel91@gmail.com</a></span><span><strong>Teléfono:</strong> <a href="tel:+34632669360">+34 632 669 360</a></span></p>
+<p class="contact-inline"><span><strong>Teléfono:</strong> <a href="tel:+34632669360">+34 632 669 360</a></span></p>
 
 </div>
