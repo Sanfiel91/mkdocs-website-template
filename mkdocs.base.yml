@@ -59,6 +59,8 @@ plugins:
       enabled: !ENV [CI, false]
       concurrency: 4
       cache_dir: tmp/mkdocs-privacy-cache
+      assets_exclude:
+        - www.googletagmanager.com/*
   - blog:
       blog_dir: blog
       authors_file: "{blog}/.authors.yml"
