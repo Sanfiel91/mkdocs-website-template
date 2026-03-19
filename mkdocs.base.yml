@@ -1,0 +1,144 @@
+site_author: Andrés Espinosa Sanfiel
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/ae-monogram.svg
+  favicon: assets/ae-monogram.png
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+    - content.tabs.link
+    - content.code.copy
+    - header.autohide
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+plugins:
+  - search
+  - social:
+      cache_dir: tmp/mkdocs-social-cache
+      cards_layout_options:
+        background_color: "#0E2238"
+        color: "#F6FAFE"
+        font_family: Inter
+  - optimize:
+      enabled: !ENV [CI, false]
+      cache_dir: tmp/mkdocs-optimize-cache
+      optimize_png: false
+  - privacy:
+      enabled: !ENV [CI, false]
+      concurrency: 4
+      cache_dir: tmp/mkdocs-privacy-cache
+  - blog:
+      blog_dir: blog
+      authors_file: "{blog}/.authors.yml"
+      categories: true
+      post_readtime: true
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.keys
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/hero.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+extra:
+  generator: false
+  scope: /
+  analytics:
+    measurement_id: !ENV [GOOGLE_ANALYTICS_ID, "G-DFRZB5ZCE8"]
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Sanfiel91
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/aesanfiel/
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: https://mail.google.com/mail/?view=cm&fs=1&to=aesanfiel91@gmail.com
+      name: Email via Gmail
+    - icon: fontawesome/solid/phone
+      link: tel:+34632669360
+      name: +34 632 669 360
+  person:
+    name: Andrés Espinosa Sanfiel
+    job_title: AI Engineer
+    image: assets/andres-espinosa.png
+    url: https://sanfieldai.com
+    email: aesanfiel91@gmail.com
+    telephone: "+34 632 669 360"
+    same_as:
+      - https://www.linkedin.com/in/aesanfiel/
+      - https://github.com/Sanfiel91
+    knows_about:
+      - Agentic AI systems
+      - Retrieval-augmented generation
+      - Hybrid search
+      - FastAPI
+      - LangChain
+      - PydanticAI
+      - MCP protocol
+      - AWS
+      - Azure

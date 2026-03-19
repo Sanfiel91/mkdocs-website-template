@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /
-
-# Prevent indexing of the built-in search UI
-Disallow: /search/
-Disallow: /search.html
-
-Sitemap: https://sanfieldai.com/sitemap.xml

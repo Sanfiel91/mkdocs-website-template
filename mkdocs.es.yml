@@ -1,0 +1,50 @@
+INHERIT: mkdocs.base.yml
+
+site_name: Andrés Espinosa Sanfiel | AI Engineer
+site_url: https://sanfieldai.com/es
+site_description: >-
+  AI Engineer especializado en sistemas agentic AI, pipelines RAG y APIs de IA
+  en producción. Basado en España y disponible en remoto para Europa.
+docs_dir: docs_es
+
+theme:
+  language: es
+
+nav:
+  - Inicio: index.md
+  - Sobre mí: about.md
+  - Portfolio:
+      - Resumen: portfolio/index.md
+      - Casos de estudio:
+          - Sistema de automatización de email con IA: portfolio/projects/agentic-email-automation.md
+          - Pipeline RAG con búsqueda híbrida: portfolio/projects/rag-hybrid-search-pipeline.md
+          - Plataforma de APIs de IA en producción: portfolio/projects/enterprise-ai-products.md
+  - Blog: blog/index.md
+  - Temas: tags.md
+
+extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Español
+      link: /es/
+      lang: es
+  consent:
+    title: Consentimiento de cookies
+    description: >-
+      Usamos analítica respetuosa con la privacidad para entender qué páginas y
+      rutas de contacto generan conversaciones cualificadas. Puedes cambiar esta
+      decisión en cualquier momento.
+    actions:
+      - accept
+      - manage
+      - reject
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+
+copyright: >-
+  Copyright &copy; 2026 Andrés Espinosa Sanfiel -
+  <a href="#__consent">Preferencias de cookies</a>

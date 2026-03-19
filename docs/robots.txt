@@ -6,3 +6,4 @@ Disallow: /search/
 Disallow: /search.html
 
 Sitemap: https://sanfieldai.com/sitemap.xml
+Sitemap: https://sanfieldai.com/es/sitemap.xml

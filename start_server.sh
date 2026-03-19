@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Rebuild the image to pick up any Dockerfile changes
-echo "Building Docker image..."
-docker build -t mkdocs-site .
+set -euo pipefail
 
-echo "Starting MkDocs server..."
-docker run --rm -it \
-    -p 8000:8000 \
-    -v $(pwd):/docs \
-    mkdocs-site
+echo "Starting combined EN/ES development server..."
+
+if [ -x ".venv/bin/python" ]; then
+    .venv/bin/python scripts/dev_server.py --host 0.0.0.0 --port 8005
+else
+    python3 scripts/dev_server.py --host 0.0.0.0 --port 8005
+fi

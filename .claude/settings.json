@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(uv run:*)",
+      "Bash(ls -lh \"/home/anfiel91/projects/Personal/mkdocs-website-template/docs/assets/diagrams/\"*.svg)",
+      "Bash(mv \"Diagrama-Solution.svg\" \"email-automation-solution-overview.svg\")",
+      "Bash(mv \"Explicación en inglés como la IA clasifica.svg\" \"email-classification-flow-en.svg\")",
+      "Bash(mv \"Explicación en español como la IA Clasifica los emails.svg\" \"email-classification-flow-es.svg\")",
+      "Bash(ls -lh *.svg)",
+      "Read(//tmp/es-test/**)",
+      "Read(//tmp/combined-test/es/**)",
+      "Read(//tmp/combined-test/**)",
+      "Bash(rm /home/anfiel91/projects/Personal/mkdocs-website-template/docs/assets/diagrams/email-automation-solution-overview-version-english.svg:Zone.Identifier)",
+      "Bash(find /home/anfiel91/projects/Personal/mkdocs-website-template/docs/assets/diagrams/ -name \"*.Zone.Identifier\" -delete)"
+    ]
+  }
+}

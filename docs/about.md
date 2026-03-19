@@ -1,51 +1,79 @@
 ---
 title: About Andrés Espinosa Sanfiel
-description: "About Andrés Espinosa Sanfiel — AI Engineer with 4+ years in data science, data engineering, and production AI delivery. Azure and Databricks certified."
-author: "Andrés Espinosa Sanfiel"
-canonical_url: "https://sanfieldai.com/about/"
+description: About Andrés Espinosa Sanfiel, AI Engineer with 4+ years across data science, data engineering, and production AI delivery.
+image: assets/andres-espinosa.png
+tags:
+  - ai-engineering
+  - consulting
+  - production-ai
 ---
 
 # About Andrés Espinosa Sanfiel
 
-## Executive Summary
+## Executive summary
 
-I am an AI consultant and engineer focused on agentic AI systems, hybrid RAG pipelines, and production AI platforms. My work sits at the point where architecture, business value, and operational reality need to meet. I help teams move from promising prototypes to systems that can support daily usage, evolving requirements, and measurable outcomes.
+I am an AI engineer focused on agentic AI systems, hybrid RAG pipelines, and production AI platforms. My work sits where architecture, business value, and operational reality need to meet. I help teams move from promising prototypes to systems that can support daily usage, evolving requirements, and measurable outcomes.
 
 My background combines economics, data engineering, data science, and AI product delivery. I hold a Master's degree in Advanced and Applied Artificial Intelligence from the University of Valencia and a Bachelor's degree in Economics, which gives me both a technical and business lens when shaping AI solutions.
 
-## Professional Experience
+<div class="author-card" markdown>
 
-### Capgemini | AI Engineer
-**Mar 2026 - Present**
+**What I optimize for**
 
-- Working as an AI Engineer on enterprise AI initiatives with a focus on production-ready delivery.
+- Clear business outcomes before model choices
+- Deterministic workflows over fragile prompt chains
+- Retrieval systems that can be explained and improved
+- Production delivery paths that internal teams can maintain
 
-### Sala Scala - The Wise Dreams | AI Engineer
-**Sep 2024 - Mar 2026**
+</div>
 
-- Designed agentic AI systems with deterministic orchestration, reducing manual competitive analysis processing time by 70%.
-- Built production FastAPI services with WebSocket support serving 500+ daily API requests for live AI workloads.
-- Engineered hybrid RAG pipelines over OpenSearch and Qdrant, improving domain-specific retrieval accuracy by 40%.
-- Delivered a production GenAI email automation system presented publicly at Datamecum Webinar 2025.
+## Background
 
-### ElastaCloud | Data Scientist
-**Oct 2022 - Mar 2024**
+My path to AI engineering started with economics. I hold a Bachelor's degree in Economics and a Master's degree in Advanced and Applied Artificial Intelligence from the University of Valencia — a combination that shapes how I approach every system I build: with both technical rigor and a clear line to business value.
 
-- Developed and deployed RAG applications using Azure Cognitive Services, large language models, Python, and FastAPI.
-- Automated AI solutions with Docker, Azure services, and production-minded deployment workflows.
-- Implemented MLOps practices including experiment tracking, model versioning, and deployment pipelines with MLflow.
+I spent my early career in data engineering and data science, building ETL pipelines with Apache Spark, deploying machine learning models on Azure, and implementing MLOps practices with MLflow. That foundation gave me a solid understanding of how data systems work end-to-end — from ingestion and transformation through to model serving and monitoring.
 
-### ElastaCloud | Intern Data Engineer
-**Nov 2021 - Oct 2022**
+Since 2024, my focus shifted fully to production AI engineering: agentic workflows, hybrid RAG systems, structured LLM outputs, and cloud-native deployments on AWS. I have designed and delivered systems that automate real business processes — from booking pipelines handling daily transaction volumes to email automation systems with full LLM observability.
 
-- Contributed to Apache Spark ETL pipelines and large-scale data preparation workflows.
-- Worked extensively with PySpark DataFrames, SQL analysis, and reporting for operational data tasks.
+I presented one of these production systems publicly at the **Datamecum Webinar 2025**, walking through the architecture, design decisions, and operational results of an AI-powered email automation pipeline.
 
-## Certifications & Speaking
+The details of these projects — including architecture, tech stack, and measurable outcomes — are documented in the [case studies](portfolio/index.md).
+
+## Core stack
 
 <div class="grid cards" markdown>
 
--   :material-microsoft:{ .lg .middle } Microsoft Certified
+-   :material-robot-outline:{ .lg .middle } **Agentic AI and orchestration**
+
+    ---
+
+    LangChain, LangGraph, PydanticAI, Agno, MCP protocol, OpenAI API, deterministic workflows, multi-step agents, and tool orchestration.
+
+-   :material-database-search:{ .lg .middle } **Retrieval and data**
+
+    ---
+
+    OpenSearch, Qdrant, PostgreSQL/pgVector, Redis, PySpark, SQL, and domain-specific search architectures that combine vector and keyword retrieval.
+
+-   :material-api:{ .lg .middle } **Platforms and cloud**
+
+    ---
+
+    Python, FastAPI, WebSockets, AWS, Azure, Docker, and backend APIs built for real usage.
+
+-   :material-chart-box-outline:{ .lg .middle } **Delivery and MLOps**
+
+    ---
+
+    CI/CD, MLflow, LangSmith, Langfuse, deployment workflows, and hexagonal architecture for maintainability and decoupling.
+
+</div>
+
+## Certifications and speaking
+
+<div class="grid cards" markdown>
+
+-   :material-microsoft:{ .lg .middle } **Microsoft certified**
 
     ---
 
@@ -54,60 +82,45 @@ My background combines economics, data engineering, data science, and AI product
     [Fabric Analytics Engineer Associate](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b5d62cfc3a86d3a4){ target="_blank" rel="noopener" }  
     [Azure Fundamentals](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b223548422651062){ target="_blank" rel="noopener" }
 
--   :fontawesome-solid-database:{ .lg .middle } Databricks Certified
+-   :fontawesome-solid-database:{ .lg .middle } **Databricks certified**
 
     ---
 
     [Machine Learning Associate](https://credentials.databricks.com/6b2bbbc2-c75f-4ec9-9540-89d1879a3b98){ target="_blank" rel="noopener" }  
     [Apache Spark Developer](https://credentials.databricks.com/9e374e9e-e49d-47e2-966f-581d521c2f5a){ target="_blank" rel="noopener" }
 
--   :material-microphone:{ .lg .middle } [Technical Speaker](https://youtu.be/cECPFYFLAVw?si=AfFpwbT-skWP5LGp){ target="_blank" rel="noopener" }
+-   :material-microphone:{ .lg .middle } **Public technical speaking**
 
     ---
 
-    Speaker at Datamecum Webinar 2025, presenting a production GenAI email automation system built with Pydantic-AI, RAG, and FastAPI.
+    Speaker at [Datamecum Webinar 2025](https://youtu.be/cECPFYFLAVw?si=dh9k_iqe5bDFC_fv&t=472){ target="_blank" rel="noopener" }, presenting a production GenAI email automation system built with PydanticAI, RAG, and FastAPI.
 
 </div>
 
-## Core Stack
-
-<div class="grid cards" markdown>
-
--   :material-robot-outline:{ .lg .middle } Agentic AI & Orchestration
-
-    ---
-
-    LangChain, LangGraph, PydanticAI, Agno, MCP protocol, OpenAI API, deterministic workflows, multi-step agents, and tool orchestration.
-
--   :material-database-search:{ .lg .middle } Retrieval & Data
-
-    ---
-
-    OpenSearch, Qdrant, PostgreSQL/pgVector, Redis, PySpark, SQL, and domain-specific search architectures that combine vector and keyword retrieval.
-
--   :material-api:{ .lg .middle } Platforms & Cloud
-
-    ---
-
-    Python, FastAPI, WebSockets, AWS (Lambda, ECS, S3, DynamoDB, EventBridge), Azure, Docker, and backend APIs built for real usage.
-
--   :material-chart-box-outline:{ .lg .middle } Delivery & MLOps
-
-    ---
-
-    CI/CD, MLflow, LangSmith, Langfuse, model tracking, deployment workflows, and hexagonal architecture for maintainability and decoupling.
-
-</div>
-
-## Working Style
+## Working style
 
 - I start from the business objective and define the technical shape around measurable outcomes.
 - I prefer deterministic workflows and explicit system boundaries over fragile prompt-only behavior.
 - I build for production-readiness early, so scaling, maintainability, and observability are considered from the start.
 - I am comfortable working independently or embedding into an existing engineering or product team.
 
-## Languages & Availability
+## Languages and availability
 
 - Fluent in English and Spanish.
 - Based in Spain and available for remote collaboration across Europe.
 - Open to freelance, contract, and selected long-term opportunities.
+
+<div class="cta-panel" markdown>
+
+## Want to discuss a concrete AI architecture challenge?
+
+I can help evaluate the technical shape, delivery risk, and business fit before your team commits to implementation.
+
+<div class="cta-actions" markdown>
+[Book an intro call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="about_intro_call" target="_blank" rel="noopener" }
+[Review the case studies :material-arrow-right:](portfolio/index.md){ .md-button }
+</div>
+
+<p class="contact-inline"><span><strong>Email:</strong> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aesanfiel91@gmail.com" target="_blank" rel="noopener">aesanfiel91@gmail.com</a></span><span><strong>Phone:</strong> <a href="tel:+34632669360">+34 632 669 360</a></span></p>
+
+</div>

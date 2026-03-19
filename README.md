@@ -37,11 +37,10 @@ As you go through this setup, please find all the most up to date information in
 
 3. **Preview your site**
    ```bash
-    # For MacOS M1/M2 users
-    export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib
-    mkdocs serve
+   uv sync
+   uv run python scripts/dev_server.py
    ```
-   Visit `http://localhost:8000` to see your site.
+   Visit `http://localhost:8000` to see the English site and `http://localhost:8000/es/` for Spanish.
 
 > **Note on Operating Systems**: 
 > - This setup has been thoroughly tested on MacOS (Intel and Apple Silicon)
@@ -73,7 +72,7 @@ https://docs.docker.com/get-started/get-docker/
    chmod +x start_server.sh
    ./start_server.sh
    ```
-   Visit `http://localhost:8000` to see your site.
+   Visit `http://localhost:8000` to see the English site and `http://localhost:8000/es/` for Spanish.
 
 ## Customizing Your Portfolio
 

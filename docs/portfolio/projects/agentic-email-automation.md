@@ -1,76 +1,132 @@
 ---
 title: AI-Powered Email Automation System
-description: Production GenAI email automation workflow using Pydantic-AI, RAG, and FastAPI that reduced daily email triage from 100+ to 10-15 actionable items.
+description: Production GenAI email automation workflow using PydanticAI, RAG, and FastAPI that reduced daily email triage from 100+ to 10-15 actionable items.
+image: assets/diagrams/email-automation-architecture.png
+tags:
+  - agentic-ai
+  - pydanticai
+  - fastapi
+  - automation
+  - rag
 ---
 
 # AI-Powered Email Automation System
 
-!!! abstract "Case Study Summary"
-    **Role**: AI Engineer
-    **Company**: Sala Scala - The Wise Dreams
-    **Industry**: Enterprise AI Solutions
+!!! abstract "Delivery snapshot"
+    **Role**: AI Engineer  
+    **Sector**: Tourism & hospitality
+    **Goal**: Reduce time spent reviewing and prioritizing high-volume email traffic
 
-    **Impact Metrics**:
-
+!!! success "Measured impact"
     - Reduced daily email triage from **100+ items to 10-15 actionable items**
-    - Automated classification and prioritization of incoming communications
-    - Production system deployed and serving real users daily
-    - Presented as Technical Speaker at **Datamecum Webinar 2025**
+    - Automated classification and prioritization for live daily operations
+    - Production system deployed and serving real users
+    - Presented publicly at **Datamecum Webinar 2025**
 
-## Challenge
+!!! info "Core stack"
+    <span class="tech-badge">PydanticAI</span>
+    <span class="tech-badge">FastAPI</span>
+    <span class="tech-badge">RAG</span>
+    <span class="tech-badge">Python</span>
+    <span class="tech-badge">Docker</span>
+    <span class="tech-badge">Hetzner</span>
 
-The client was drowning in a high volume of daily emails — over 100 items requiring manual review, classification, and response. The manual triage process was time-consuming, error-prone, and diverted skilled professionals from higher-value tasks. They needed an intelligent system that could automatically understand email content, classify urgency, and surface only the items that truly required human attention.
-
-## Approach & Architecture
-
-![Architecture diagram — AI-Powered Email Automation](../../assets/diagrams/email-automation-architecture.png)
-*High-level architecture: email ingestion, RAG classification, structured output, and API delivery.*
-
-I designed the solution as a production workflow, not just a classification demo:
-
-- **Structured output layer** with Pydantic-AI so the system returns validated, type-safe decisions instead of free-form text.
-- **RAG classification pipeline** to ground decisions in domain-specific context, policies, and historical examples.
-- **FastAPI service layer** for real-time email processing and clean API integration with surrounding systems.
-- **Deterministic orchestration** to keep routing and prioritization behavior consistent across categories and edge cases.
-
-The architecture followed hexagonal principles so the LLM layer, business rules, and infrastructure could evolve independently.
-
-## Results
-
-- Daily email triage reduced from 100+ items to 10-15 actionable items
-- Automated classification with high accuracy across multiple categories
-- Real-time processing with sub-second response times
-- System deployed to production and serving daily workloads
-- Scalable architecture ready for multi-tenant deployment
-
-## Watch the Technical Talk
-
-This project was presented live at **Datamecum Webinar 2025**. The talk covers the production architecture, design decisions, and operational results.
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/cECPFYFLAVw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="metric-highlight">
+  <div class="metric-highlight-item">
+    <span class="metric-number">100+ → 15</span>
+    <span class="metric-label">daily emails requiring human review</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">85%</span>
+    <span class="metric-label">reduction in manual triage effort</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">Real-time</span>
+    <span class="metric-label">classification in production</span>
+  </div>
 </div>
 
-## Tech Stack
+## Business challenge
 
-- Pydantic-AI for structured LLM outputs
-- RAG pipeline for context-aware classification
-- FastAPI for RESTful API endpoints
-- Python backend services
-- Docker containerization
-- Hetzner cloud infrastructure
-- Hexagonal architecture for maintainability
+The client was drowning in a high volume of daily emails requiring manual review, classification, and response. The process was slow, error-prone, and diverted skilled professionals from higher-value tasks. They needed a system that could understand email content, classify urgency, and surface only the items that truly required human attention.
 
-This project was later presented as a technical talk at **Datamecum Webinar 2025**, showing the production architecture, design decisions, and operational results.
+## Solution overview
 
-<div class="grid cards" style="margin-top: 3rem" markdown>
+![Architecture diagram - AI-Powered Email Automation](../../assets/diagrams/email-automation-architecture.png)
+*High-level architecture covering ingestion, retrieval, structured decisions, and API delivery.*
 
--   :material-calendar-month-outline:{ .lg .middle } Book a free intro call
+![Solution overview - Email Automation System](../../assets/diagrams/email-automation-solution-overview-version-english.svg)
+*End-to-end solution diagram from the Datamecum Webinar 2025 presentation.*
 
-    ---
+![How the AI classifies emails](../../assets/diagrams/email-classification-flow-en.svg)
+*Classification flow: how the AI processes, classifies, and routes each email.*
 
-    If your team spends too much time on email triage or document processing, let's talk about how AI automation could fit your workflow.
+I designed the solution as a production workflow rather than a one-shot classifier:
 
-    [Book Free Intro Call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary target="_blank" rel="noopener" }
+- **Structured output contracts** with PydanticAI so the system returns validated, type-safe decisions instead of free-form text.
+- **RAG classification** to ground decisions in domain policies, examples, and historical context.
+- **FastAPI delivery layer** for real-time processing and clean integration with surrounding systems.
+- **Deterministic routing** so prioritization behavior stays consistent across categories and edge cases.
+
+## Key design decisions
+
+- The workflow separates ingestion, classification, decision formatting, and delivery so each boundary can be tested and evolved independently.
+- Business rules and confidence handling stay outside the prompt layer, reducing the risk of accidental regressions.
+- The architecture follows hexagonal principles, making it easier to replace retrieval strategies or model providers without rewriting the service.
+
+## Results in production
+
+- Daily triage reduced from 100+ items to 10-15 actionable items
+- Higher consistency in classification and prioritization
+- Real-time processing fast enough for operational usage
+- Architecture ready for future multi-tenant expansion
+
+## Technical walkthrough
+
+=== "Decision layer"
+    ```python
+    from pydantic import BaseModel
+    from pydantic_ai import Agent
+
+    class TriageDecision(BaseModel):
+        priority: str
+        category: str
+        requires_human_review: bool
+
+    agent = Agent(
+        model="gpt-4o-mini",
+        output_type=TriageDecision,
+        system_prompt="Classify the email using company policies and examples."
+    )
+    ```
+
+=== "API layer"
+    ```python
+    @app.post("/triage")
+    async def triage_email(payload: EmailPayload) -> TriageDecision:
+        decision = await triage_service.classify(payload)
+        return decision
+    ```
+
+## Watch the technical talk
+
+The project was presented publicly at Datamecum Webinar 2025, covering production architecture, implementation tradeoffs, and operational results.
+
+<div class="embedded-video">
+  <a href="https://youtu.be/cECPFYFLAVw?si=dh9k_iqe5bDFC_fv&t=472" target="_blank" rel="noopener" aria-label="Watch Datamecum Webinar 2025 on YouTube">
+    <img src="https://img.youtube.com/vi/cECPFYFLAVw/maxresdefault.jpg" alt="Watch Datamecum Webinar 2025 — AI-Powered Email Automation" loading="lazy">
+  </a>
+</div>
+
+<div class="cta-panel" markdown>
+
+## Want to reduce manual triage or document-heavy operations?
+
+If your team is spending too much time reviewing inbound communications or prioritizing repetitive work, this is the kind of automation pattern I can help implement safely.
+
+<div class="cta-actions" markdown>
+[Book a free intro call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="case_email_intro_call" target="_blank" rel="noopener" }
+[Read the related blog post :material-arrow-right:](../../blog/posts/ai-email-automation-webinar.md){ .md-button }
+</div>
 
 </div>

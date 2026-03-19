@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block site_meta %}
+  {{ super() }}
+  {% set meta = page.meta if page and page.meta else {} %}
+  {% set person = config.extra.person %}
+  {% set measurement_id = config.extra.analytics.measurement_id %}
+  {% set current_site_url = config.site_url.rstrip('/') %}
+  {% if measurement_id %}
+    <script>
+      window.siteAnalyticsMeasurementId = "{{ measurement_id }}";
+    </script>
+  {% endif %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ person.name }}",
+      "jobTitle": "{{ person.job_title }}",
+      "url": "{{ person.url }}",
+      "image": "{{ current_site_url ~ '/' ~ person.image }}",
+      "email": "{{ person.email }}",
+      "telephone": "{{ person.telephone }}",
+      "sameAs": [
+        {% for item in person.same_as %}
+          "{{ item }}"{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ],
+      "knowsAbout": [
+        {% for item in person.knows_about %}
+          "{{ item }}"{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "{{ config.site_name }}",
+      "url": "{{ current_site_url }}",
+      "description": "{{ config.site_description }}"
+    }
+  </script>
+  {% if page and page.file and page.file.src_uri.startswith("blog/posts/") %}
+    {% set image = meta.image if meta.image else person.image %}
+    {% if image.startswith("http") %}
+      {% set image_url = image %}
+    {% else %}
+      {% set image_url = current_site_url ~ "/" ~ image %}
+    {% endif %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ page.title }}",
+        "description": "{{ meta.description or config.site_description }}",
+        "datePublished": "{{ meta.date }}",
+        "author": {
+          "@type": "Person",
+          "name": "{{ person.name }}"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "{{ person.name }}",
+          "image": {
+            "@type": "ImageObject",
+            "url": "{{ current_site_url ~ '/' ~ person.image }}"
+          }
+        },
+        "image": "{{ image_url }}",
+        "mainEntityOfPage": "{{ page.canonical_url }}"
+      }
+    </script>
+  {% endif %}
+{% endblock %}

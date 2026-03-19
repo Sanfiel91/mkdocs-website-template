@@ -1,102 +1,50 @@
-site_name: Andrés Espinosa Sanfiel
-site_description: "AI Engineer helping teams ship production agentic AI systems, RAG pipelines, and AI APIs. Based in Spain, available remotely across Europe."
+INHERIT: mkdocs.base.yml
+
+site_name: Andrés Espinosa Sanfiel | AI Engineer
 site_url: https://sanfieldai.com
+site_description: >-
+  AI Engineer helping teams ship production agentic AI systems, RAG pipelines,
+  and AI APIs. Based in Spain and available remotely across Europe.
+docs_dir: docs
+
+theme:
+  language: en
 
 nav:
   - Home: index.md
   - About: about.md
   - Portfolio:
-    - Overview: portfolio/index.md
-    - Case Studies:
-      - portfolio/projects/agentic-email-automation.md
-      - portfolio/projects/rag-hybrid-search-pipeline.md
-      - portfolio/projects/enterprise-ai-products.md
+      - Overview: portfolio/index.md
+      - Case Studies:
+          - AI-Powered Email Automation System: portfolio/projects/agentic-email-automation.md
+          - Hybrid Search RAG Pipeline: portfolio/projects/rag-hybrid-search-pipeline.md
+          - Production AI API Platform: portfolio/projects/enterprise-ai-products.md
   - Blog: blog/index.md
-
-theme:
-  name: material
-  logo: assets/ae-monogram.svg
-  features:
-    - search.suggest
-    - toc.integrate
-    - navigation.tabs
-    - navigation.expand
-    - navigation.sections
-    - navigation.instant
-    - navigation.instant.prefetch
-    - content.tooltips
-    - content.tabs.link
-    - content.code.copy
-    - navigation.footer
-  language: en
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: custom
-      accent: custom  
-    - scheme: slate
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: custom
-      accent: custom
-  font:
-    text: Inter
-    code: Roboto Mono
-  favicon: assets/ae-monogram.png
+  - Topics: tags.md
 
 extra:
-  generator: true
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Sanfiel91
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/aesanfiel/
-    - icon: fontawesome/solid/envelope
-      link: mailto:aesanfiel91@gmail.com
-  analytics:
-    provider: google
-    property: G-XXXXXXXXXX
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Español
+      link: /es/
+      lang: es
+  consent:
+    title: Cookie consent
+    description: >-
+      We use privacy-friendly analytics to understand which pages and contact
+      paths generate qualified conversations. You can change this choice at any
+      time.
+    actions:
+      - accept
+      - manage
+      - reject
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
 
-extra_css:
-  - stylesheets/extra.css
-  - stylesheets/hero.css
-plugins:
-  - search
-  - social:
-      cache_dir: tmp/mkdocs-social-cache
-      cards_layout_options:
-        background_color: "#0E2238"
-        color: "#F6FAFE"
-        font_family: Roboto
-  - optimize:
-      cache_dir: tmp/mkdocs-optimize-cache
-      optimize_png: false
-  - blog:
-      blog_dir: blog
-      authors_file: "{blog}/.authors.yml"
-      categories: true
-
-markdown_extensions:
-  - attr_list
-  - md_in_html
-  - admonition
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.details
-  - pymdownx.critic
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - def_list
-  - pymdownx.keys
-
-copyright: |
-  &copy; 2026 <a href="https://www.linkedin.com/in/aesanfiel/" target="_blank" rel="noopener">Andrés Espinosa Sanfiel</a>. All rights reserved.
+copyright: >-
+  Copyright &copy; 2026 Andrés Espinosa Sanfiel -
+  <a href="#__consent">Cookie settings</a>

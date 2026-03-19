@@ -1,1 +1,2 @@
+mkdocs<2
 mkdocs-material[imaging]==9.7.5

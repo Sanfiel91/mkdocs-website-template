@@ -17,6 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      CI: true
+      GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
     steps:
       - uses: actions/checkout@v4
 
@@ -24,25 +27,23 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-
-      - uses: actions/cache@v4
+      - uses: astral-sh/setup-uv@v5
         with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: ~/.cache
-          restore-keys: |
-            mkdocs-material-
+          enable-cache: true
 
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev zlib1g-dev pngquant
 
-      - name: Install Python dependencies
-        run: pip install "mkdocs-material[imaging]"
+      - name: Sync Python dependencies
+        run: uv sync --frozen
 
-      - name: Build site
-        run: mkdocs build
+      - name: Build English site
+        run: uv run mkdocs build --strict -f mkdocs.yml --site-dir site
+
+      - name: Build Spanish site
+        run: uv run mkdocs build --strict -f mkdocs.es.yml --site-dir site/es
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
