@@ -7,8 +7,23 @@
   {% set measurement_id = config.extra.analytics.measurement_id %}
   {% set current_site_url = config.site_url.rstrip('/') %}
   {% if measurement_id %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ measurement_id }}"></script>
     <script>
       window.siteAnalyticsMeasurementId = "{{ measurement_id }}";
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+      window.gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+        wait_for_update: 500
+      });
+      window.gtag("js", new Date());
+      window.gtag("config", "{{ measurement_id }}", {
+        anonymize_ip: true,
+        send_page_view: false
+      });
     </script>
   {% endif %}
   <script type="application/ld+json">
