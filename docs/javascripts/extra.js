@@ -17,7 +17,12 @@
 
   function hasAnalyticsConsent() {
     var consent = getConsent();
-    return !!(consent && consent.analytics);
+    // No consent stored yet (user hasn't interacted with banner) → track by default
+    if (consent === null || consent === undefined) {
+      return true;
+    }
+    // User made an explicit choice → respect it
+    return !!consent.analytics;
   }
 
   function currentPath() {
