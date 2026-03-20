@@ -32,6 +32,21 @@ tags:
     <span class="tech-badge">AWS S3</span>
     <span class="tech-badge">Streamlit</span>
 
+<div class="metric-highlight">
+  <div class="metric-highlight-item">
+    <span class="metric-number">100+ → 15</span>
+    <span class="metric-label">emails de reservas diarios que requieren revisión</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">4</span>
+    <span class="metric-label">categorías de reserva auto-clasificadas</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">0</span>
+    <span class="metric-label">mensajes duplicados a proveedores</span>
+  </div>
+</div>
+
 ## Reto
 
 El equipo de operaciones de una empresa de turismo y actividades procesaba más de 100 emails de reservas al día - nuevas reservas, cancelaciones, modificaciones y consultas generales - todo manualmente. Cada email tenía que leerse, entenderse, cruzarse con el catálogo de actividades actual, clasificarse por tipo y enrutarse al proveedor o equipo interno correcto.

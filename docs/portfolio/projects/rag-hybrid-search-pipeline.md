@@ -31,6 +31,21 @@ tags:
     <span class="tech-badge">Keycloak</span>
     <span class="tech-badge">Docker</span>
 
+<div class="metric-highlight">
+  <div class="metric-highlight-item">
+    <span class="metric-number">Real-time</span>
+    <span class="metric-label">Excel processing via WebSocket</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">Hybrid</span>
+    <span class="metric-label">AI extraction + deterministic assignment</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">Persistent</span>
+    <span class="metric-label">session continuity across reconnections</span>
+  </div>
+</div>
+
 ## Challenge
 
 Restaurant and venue operations teams manage seating through a mix of spreadsheets, manual coordination, and institutional knowledge. The typical workflow involves receiving Excel files with reservations and table layouts, manually cross-referencing names and party sizes, applying capacity constraints, handling duplicate records, and communicating assignments - all under time pressure before service begins.

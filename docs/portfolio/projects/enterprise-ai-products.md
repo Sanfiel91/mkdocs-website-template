@@ -32,6 +32,21 @@ tags:
     <span class="tech-badge">AWS S3</span>
     <span class="tech-badge">Streamlit</span>
 
+<div class="metric-highlight">
+  <div class="metric-highlight-item">
+    <span class="metric-number">100+</span>
+    <span class="metric-label">daily booking emails automated</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">4</span>
+    <span class="metric-label">booking categories auto-classified</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">0</span>
+    <span class="metric-label">duplicate supplier messages</span>
+  </div>
+</div>
+
 ## Challenge
 
 The operations team at a tourism and activities company was processing over 100 booking-related emails per day - new reservations, cancellations, modifications, and general inquiries - all manually. Each email had to be read, understood, matched against the current activity catalog, classified by type, and routed to the correct supplier or internal team.

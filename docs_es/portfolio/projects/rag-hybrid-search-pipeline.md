@@ -31,6 +31,21 @@ tags:
     <span class="tech-badge">Keycloak</span>
     <span class="tech-badge">Docker</span>
 
+<div class="metric-highlight">
+  <div class="metric-highlight-item">
+    <span class="metric-number">Tiempo real</span>
+    <span class="metric-label">procesamiento de Excel vía WebSocket</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">Híbrido</span>
+    <span class="metric-label">extracción IA + asignación determinista</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">Persistente</span>
+    <span class="metric-label">continuidad de sesión entre reconexiones</span>
+  </div>
+</div>
+
 ## Reto
 
 Los equipos de operaciones de restaurantes y venues gestionan el seating a través de una mezcla de hojas de cálculo, coordinación manual y conocimiento institucional. El workflow típico implica recibir archivos Excel con reservas y layouts de mesas, cruzar manualmente nombres y tamaños de grupo, aplicar restricciones de capacidad, gestionar registros duplicados y comunicar asignaciones - todo bajo presión de tiempo antes de que empiece el servicio.

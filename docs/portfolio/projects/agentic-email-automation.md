@@ -34,6 +34,21 @@ tags:
     <span class="tech-badge">Langfuse</span>
     <span class="tech-badge">Docker</span>
 
+<div class="metric-highlight">
+  <div class="metric-highlight-item">
+    <span class="metric-number">85%</span>
+    <span class="metric-label">reduction in manual triage effort</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">2</span>
+    <span class="metric-label">delivery channels (notifications + RAG assistant)</span>
+  </div>
+  <div class="metric-highlight-item">
+    <span class="metric-number">Real-time</span>
+    <span class="metric-label">observability with Langfuse</span>
+  </div>
+</div>
+
 ## Challenge
 
 The average professional receives over 120 emails per day and spends roughly 28% of their working time managing them. Critical messages get buried, responses are delayed, and the constant context-switching drains productivity.
