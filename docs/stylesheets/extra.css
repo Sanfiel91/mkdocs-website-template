@@ -463,13 +463,12 @@
 
 .metric-highlight-item .metric-number {
   display: block;
-  font-size: clamp(1.6rem, 3vw, 2rem);
+  font-size: clamp(1.1rem, 2.2vw, 1.5rem);
   font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
   color: var(--color-navy-900);
-  word-break: keep-all;
-  overflow-wrap: normal;
+  white-space: nowrap;
 }
 
 .metric-highlight-item .metric-label {
