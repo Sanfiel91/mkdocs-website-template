@@ -34,8 +34,8 @@ tags:
 
 <div class="metric-highlight">
   <div class="metric-highlight-item">
-    <span class="metric-number">100+ → 15</span>
-    <span class="metric-label">emails de reservas diarios que requieren revisión</span>
+    <span class="metric-number">100+</span>
+    <span class="metric-label">emails de reservas diarios automatizados</span>
   </div>
   <div class="metric-highlight-item">
     <span class="metric-number">4</span>

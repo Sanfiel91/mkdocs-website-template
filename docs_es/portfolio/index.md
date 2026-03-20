@@ -46,7 +46,6 @@ Si tu roadmap de IA ya tiene tracción de negocio pero todavía no tiene una for
 
 <div class="cta-actions" markdown>
 [Reserva una llamada gratuita :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="portfolio_page_intro_call_es" target="_blank" rel="noopener" }
-[Ver temas actuales :material-tag-outline:](../tags.md){ .md-button }
 </div>
 
 </div>

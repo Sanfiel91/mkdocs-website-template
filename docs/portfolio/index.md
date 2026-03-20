@@ -46,7 +46,6 @@ If your AI roadmap already has business pull but still lacks a reliable producti
 
 <div class="cta-actions" markdown>
 [Book a free intro call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="portfolio_page_intro_call" target="_blank" rel="noopener" }
-[Browse current topics :material-tag-outline:](../tags.md){ .md-button }
 </div>
 
 </div>

@@ -140,7 +140,6 @@ If your team is manually sorting, classifying, and responding to high volumes of
 
 <div class="cta-actions" markdown>
 [Book a free intro call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="case_email_intro_call" target="_blank" rel="noopener" }
-[Read the related blog post :material-arrow-right:](../../blog/posts/ai-email-automation-webinar.md){ .md-button }
 </div>
 
 </div>

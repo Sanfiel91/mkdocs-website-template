@@ -12,7 +12,7 @@ tags:
 # Agente conversacional de IA para asignación de mesas
 
 !!! abstract "Resumen de entrega"
-    **Rol**: AI Engineer(con un equipo de producto multifuncional)<br>
+    **Rol**: AI Engineer (con un equipo de producto multifuncional)<br>
     **Sector**: Hostelería y operaciones de restauración<br>
     **Objetivo**: Reemplazar workflows manuales de asignación de mesas con un backend conversacional de IA que procesa archivos, aplica reglas de negocio y responde consultas operativas en tiempo real
 

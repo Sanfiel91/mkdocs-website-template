@@ -12,7 +12,7 @@ tags:
 # Conversational AI Seating Agent
 
 !!! abstract "Delivery snapshot"
-    **Role**: AI Engineer(within a cross-functional product team)<br>
+    **Role**: AI Engineer (within a cross-functional product team)<br>
     **Sector**: Hospitality and restaurant operations<br>
     **Goal**: Replace manual seating assignment workflows with a conversational AI backend that processes files, applies business rules, and answers operational queries in real time
 

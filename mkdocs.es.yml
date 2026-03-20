@@ -19,8 +19,6 @@ nav:
           - Sistema de automatización de email con IA: portfolio/projects/agentic-email-automation.md
           - Agente conversacional de IA para asignación de mesas: portfolio/projects/rag-hybrid-search-pipeline.md
           - Automatización de emails de reservas con IA: portfolio/projects/enterprise-ai-products.md
-  - Blog: blog/index.md
-  - Temas: tags.md
 
 extra:
   alternate:

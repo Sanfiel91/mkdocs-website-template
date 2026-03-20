@@ -36,16 +36,16 @@ tags:
 
 <div class="metric-highlight">
   <div class="metric-highlight-item">
-    <span class="metric-number">100+ → 15</span>
-    <span class="metric-label">emails diarios que requieren revisión humana</span>
-  </div>
-  <div class="metric-highlight-item">
     <span class="metric-number">85%</span>
     <span class="metric-label">reducción en esfuerzo de triaje manual</span>
   </div>
   <div class="metric-highlight-item">
+    <span class="metric-number">2</span>
+    <span class="metric-label">canales de entrega (notificaciones + asistente RAG)</span>
+  </div>
+  <div class="metric-highlight-item">
     <span class="metric-number">Tiempo real</span>
-    <span class="metric-label">clasificación en producción</span>
+    <span class="metric-label">observabilidad con Langfuse</span>
   </div>
 </div>
 
@@ -140,7 +140,6 @@ Si tu equipo clasifica, ordena y responde manualmente grandes volúmenes de comu
 
 <div class="cta-actions" markdown>
 [Reserva una llamada gratuita :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="case_email_intro_call_es" target="_blank" rel="noopener" }
-[Leer el post relacionado :material-arrow-right:](../../blog/posts/ai-email-automation-webinar.md){ .md-button }
 </div>
 
 </div>
