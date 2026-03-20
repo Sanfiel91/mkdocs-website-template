@@ -14,25 +14,29 @@ hide:
 
 ## The short version
 
-I help teams take AI systems from "it works in a notebook" to "it runs in production and we trust it." If your prototype already proves the value but the path to a reliable, maintainable system still feels unclear - that is exactly where I work best.
+I help teams take AI systems from "it works in a notebook" to "it runs in production and we trust it."
+
+If your prototype already proves the value but the path to a reliable, maintainable system still feels unclear - that is exactly where I work best.
 
 ## How I got here
 
-I studied Economics before I ever touched a line of Python. That background turned out to be more useful than I expected: it trained me to think in terms of trade-offs, incentives, and measurable outcomes - which is exactly what matters when you are deciding how to architect an AI system that a business will actually depend on.
+I studied Economics before I ever touched a line of Python. At the time, it felt unrelated. It was not. Economics trained me to think in trade-offs, incentives, and measurable outcomes - which is exactly what matters when a business is about to bet real money on an AI system.
 
-From there I moved into data engineering, building Spark pipelines and learning what it takes to keep data flowing reliably at scale. Then into data science, where I started working with machine learning models, cloud AI services, and MLOps workflows. And eventually into AI engineering, where I found the work I care about most: making AI systems that are not just impressive in a demo, but dependable enough to serve real users every day.
+I moved into data engineering first, building Spark pipelines and learning what it actually takes to keep data flowing reliably at scale. Then data science - ML models, cloud AI services, MLOps. And eventually AI engineering, where I found the work that makes me want to keep solving problems: taking AI that impresses in a demo and turning it into something people can trust every day.
 
-That progression - from data pipelines to models to production AI - is what shapes how I think about every project. I have seen what breaks when you skip the infrastructure. I have seen what happens when the model is great but the system around it is fragile. And I have learned that the hardest part of AI delivery is rarely the model itself; it is everything else.
+Here is what that path taught me. The model is rarely the hard part. What breaks projects is everything around it - the routing, the retries, the system boundaries nobody defined, the retrieval that works perfectly on test data and fails on real queries. I have been on both sides of that problem enough times to know where the risks hide.
 
-I hold a Master's degree in Advanced and Applied Artificial Intelligence from the University of Valencia and a Bachelor's in Economics. Together, they give me both a technical and a business lens when shaping AI solutions - and I use both daily.
+I hold a Master's in Advanced and Applied Artificial Intelligence from the University of Valencia, and a Bachelor's in Economics. One gives me the technical depth, the other gives me the habit of asking "does this actually make business sense?" before writing a single line of code. I use both daily.
 
 ## What I have been building
 
-My current work is focused on the gap between a working AI prototype and a system a team can actually rely on.
+Right now, my work sits in the gap between a working AI prototype and a system a team can actually depend on.
 
-Recent delivery includes agentic workflows that cut manual processing by 70%, hybrid RAG pipelines that improved domain-specific retrieval accuracy by 40%, and FastAPI services handling 500+ daily API requests for live AI workloads.
+Recent projects include agentic workflows that cut manual processing by 70%, hybrid RAG pipelines that improved domain-specific retrieval accuracy by 40%, and FastAPI services handling 500+ daily API requests for live AI workloads.
 
-One of those projects - a production email automation system built with PydanticAI, RAG, and FastAPI - I later [presented publicly at the Datamecum Webinar 2025](https://youtu.be/cECPFYFLAVw?si=AfFpwbT-skWP5LGp){ target="_blank" rel="noopener" }. You can also explore the details in my [case studies](portfolio/index.md).
+One of those - a production email automation system built with PydanticAI, RAG, and FastAPI - I [presented publicly at the Datamecum Webinar 2025](https://youtu.be/cECPFYFLAVw?si=AfFpwbT-skWP5LGp){ target="_blank" rel="noopener" }. It was my first technical talk in front of an audience, and honestly, it was a turning point. Speaking publicly about what I build forced me to be clearer about why each design decision mattered - and that clarity now shows up in every project.
+
+You can explore the full details in my [case studies](portfolio/index.md).
 
 ## Certifications & Speaking
 
@@ -94,13 +98,13 @@ One of those projects - a production email automation system built with Pydantic
 
 ## How I work
 
-I start every engagement from the business objective - not from the technology. The first question is always "what does success look like and how will we measure it?", and the architecture follows from there.
+Every project starts with a simple question: what does success look like, and how will we measure it? The architecture follows from the answer - not the other way around.
 
-I have a strong preference for deterministic workflows and explicit system boundaries. If the system behavior cannot be tested and observed, it is not ready for production. That means I think carefully about where the LLM belongs in the workflow and where plain logic does the job better.
+I am opinionated about a few things. I prefer deterministic workflows over black-box magic. If the system behavior cannot be tested and observed, it is not ready for production. That means I think carefully about where the LLM adds real value and where plain logic does the job better - and I am not afraid to say "you don't need AI for that part."
 
-I build for production-readiness from day one. Scaling, maintainability, and observability are not things I add at the end - they shape the initial design. And when the engagement ends, the goal is always a system your team can run, extend, and evaluate with confidence.
+I build for production from day one. Observability, maintainability, and clear system boundaries are not things I bolt on at the end - they shape the initial design. When the engagement ends, the goal is always a system your team can run, extend, and evaluate without needing me in the room.
 
-I work well independently and also as a technical partner embedded with an internal engineering or product team. Either way, I am direct about what I think will work, what will not, and what the trade-offs are.
+I work well on my own and also embedded with an internal engineering or product team. Either way, I will tell you what I think will work, what will not, and what the trade-offs are. I would rather have an honest conversation now than a painful one three months into delivery.
 
 ## Languages & Availability
 
@@ -112,7 +116,7 @@ I work well independently and also as a technical partner embedded with an inter
 
 ## Want to discuss a project?
 
-I can help evaluate the technical shape, delivery risk, and business fit before your team commits to implementation.
+If you already have the business case but the delivery path still feels fragile, let's talk. I can help evaluate the technical shape, the risks, and the next steps before your team commits to implementation.
 
 <div class="cta-actions" markdown>
 [Book an intro call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="about_intro_call" target="_blank" rel="noopener" }
