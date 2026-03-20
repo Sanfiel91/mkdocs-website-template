@@ -12,7 +12,13 @@
       "Read(//tmp/combined-test/es/**)",
       "Read(//tmp/combined-test/**)",
       "Bash(rm /home/anfiel91/projects/Personal/mkdocs-website-template/docs/assets/diagrams/email-automation-solution-overview-version-english.svg:Zone.Identifier)",
-      "Bash(find /home/anfiel91/projects/Personal/mkdocs-website-template/docs/assets/diagrams/ -name \"*.Zone.Identifier\" -delete)"
+      "Bash(find /home/anfiel91/projects/Personal/mkdocs-website-template/docs/assets/diagrams/ -name \"*.Zone.Identifier\" -delete)",
+      "WebFetch(domain:sanfieldai.com)",
+      "Bash(git status:*)",
+      "Bash(gh run:*)",
+      "Bash(CI=true uv run mkdocs build --strict -f mkdocs.yml --site-dir /tmp/test-site)",
+      "Read(//tmp/test-site/**)",
+      "mcp__mcp-github-work__get_file_contents"
     ]
   }
 }
