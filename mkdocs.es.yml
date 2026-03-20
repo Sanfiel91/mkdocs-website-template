@@ -17,8 +17,8 @@ nav:
       - Resumen: portfolio/index.md
       - Casos de estudio:
           - Sistema de automatización de email con IA: portfolio/projects/agentic-email-automation.md
-          - Pipeline RAG con búsqueda híbrida: portfolio/projects/rag-hybrid-search-pipeline.md
-          - Plataforma de APIs de IA en producción: portfolio/projects/enterprise-ai-products.md
+          - Agente conversacional de IA para asignación de mesas: portfolio/projects/rag-hybrid-search-pipeline.md
+          - Automatización de emails de reservas con IA: portfolio/projects/enterprise-ai-products.md
   - Blog: blog/index.md
   - Temas: tags.md
 

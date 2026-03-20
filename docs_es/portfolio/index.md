@@ -24,17 +24,17 @@ Cada caso incluye el reto de negocio, la forma del sistema, las decisiones clave
 
     Workflow GenAI en producción que redujo el triaje diario de 100+ emails a 10-15 items accionables usando PydanticAI, RAG y FastAPI. Presentado públicamente en Datamecum Webinar 2025.
 
--   [Pipeline RAG con búsqueda híbrida](projects/rag-hybrid-search-pipeline.md)
+-   [Agente conversacional de IA para asignación de mesas](projects/rag-hybrid-search-pipeline.md)
 
     ---
 
-    Arquitectura de búsqueda híbrida que combina OpenSearch y Qdrant para mejorar un 40% la precisión por dominio manteniendo desacoplada la capa LLM.
+    Backend conversacional en tiempo real que procesa archivos Excel de reservas vía WebSocket, ejecuta asignaciones deterministas de mesas y responde consultas operativas en lenguaje natural.
 
--   [Plataforma de APIs de IA en producción](projects/enterprise-ai-products.md)
+-   [Automatización de emails de reservas con IA](projects/enterprise-ai-products.md)
 
     ---
 
-    Plataforma de IA determinista con FastAPI, WebSockets e infraestructura AWS sirviendo 500+ peticiones API diarias.
+    Workflow LLM orquestado en AWS que automatizó el procesamiento de emails de reservas en 4 categorías con comunicación idempotente a proveedores y operaciones self-service.
 
 </div>
 

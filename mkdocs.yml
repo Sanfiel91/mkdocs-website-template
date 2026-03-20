@@ -17,8 +17,8 @@ nav:
       - Overview: portfolio/index.md
       - Case Studies:
           - AI-Powered Email Automation System: portfolio/projects/agentic-email-automation.md
-          - Hybrid Search RAG Pipeline: portfolio/projects/rag-hybrid-search-pipeline.md
-          - Production AI API Platform: portfolio/projects/enterprise-ai-products.md
+          - Conversational AI Seating Agent: portfolio/projects/rag-hybrid-search-pipeline.md
+          - AI-Powered Booking Email Automation: portfolio/projects/enterprise-ai-products.md
   - Blog: blog/index.md
   - Topics: tags.md
 

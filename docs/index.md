@@ -110,17 +110,17 @@ I help teams turn AI pilots into reliable systems using RAG, APIs, and agent-bas
 
     Production GenAI workflow that reduced daily email triage from 100+ items to 10-15 actionable items using PydanticAI, RAG, and FastAPI.
 
--   [Production AI API Platform](portfolio/projects/enterprise-ai-products.md)
+-   [AI-Powered Booking Email Automation](portfolio/projects/enterprise-ai-products.md)
 
     ---
 
-    Deterministic AI workflows with FastAPI, WebSockets, and AWS infrastructure. Result: 70% less manual processing and 500+ daily API requests served.
+    Orchestrated LLM workflow on AWS that automated booking email processing across 4 categories with idempotent supplier communication and self-service operations.
 
--   [Hybrid Search RAG Pipeline](portfolio/projects/rag-hybrid-search-pipeline.md)
+-   [Conversational AI Seating Agent](portfolio/projects/rag-hybrid-search-pipeline.md)
 
     ---
 
-    Retrieval architecture combining OpenSearch and Qdrant to improve domain accuracy by 40% while keeping the LLM layer decoupled.
+    Real-time conversational backend that processes Excel booking files via WebSocket, executes deterministic seating assignments, and answers operational queries in natural language.
 
 </div>
 
@@ -153,7 +153,7 @@ If the business case is already clear but the delivery path still feels fragile,
   </div>
   <div class="webinar-video">
     <a href="https://youtu.be/cECPFYFLAVw?si=dh9k_iqe5bDFC_fv&t=472" target="_blank" rel="noopener">
-      <img src="https://img.youtube.com/vi/cECPFYFLAVw/maxresdefault.jpg" alt="Watch Datamecum Webinar 2025 — AI-Powered Email Automation" loading="lazy">
+      <img src="https://img.youtube.com/vi/cECPFYFLAVw/maxresdefault.jpg" alt="Watch Datamecum Webinar 2025 - AI-Powered Email Automation" loading="lazy">
     </a>
   </div>
 </div>

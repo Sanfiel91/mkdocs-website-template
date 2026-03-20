@@ -110,17 +110,17 @@ Ayudo a equipos a convertir pilotos de IA en sistemas fiables usando RAG, APIs y
 
     Sistema GenAI en producción que redujo el triaje diario de 100+ correos a 10-15 casos accionables usando PydanticAI, RAG y FastAPI.
 
--   [Plataforma de APIs de IA en producción](portfolio/projects/enterprise-ai-products.md)
+-   [Automatización de emails de reservas con IA](portfolio/projects/enterprise-ai-products.md)
 
     ---
 
-    Flujos de IA con orquestación determinista, FastAPI, WebSockets e infraestructura en AWS. Resultado: 70% menos procesamiento manual y 500+ peticiones API diarias.
+    Workflow LLM orquestado en AWS que automatizó el procesamiento de emails de reservas en 4 categorías con comunicación idempotente a proveedores y operaciones self-service.
 
--   [Pipeline RAG con búsqueda híbrida](portfolio/projects/rag-hybrid-search-pipeline.md)
+-   [Agente conversacional de IA para asignación de mesas](portfolio/projects/rag-hybrid-search-pipeline.md)
 
     ---
 
-    Arquitectura de recuperación que combina OpenSearch y Qdrant para mejorar un 40% la precisión por dominio y mantener desacoplada la capa LLM.
+    Backend conversacional en tiempo real que procesa archivos Excel de reservas vía WebSocket, ejecuta asignaciones deterministas de mesas y responde consultas operativas en lenguaje natural.
 
 </div>
 
@@ -153,7 +153,7 @@ Si el caso de negocio ya está claro pero la ruta de entrega sigue siendo frági
   </div>
   <div class="webinar-video">
     <a href="https://youtu.be/cECPFYFLAVw?si=dh9k_iqe5bDFC_fv&t=472" target="_blank" rel="noopener">
-      <img src="https://img.youtube.com/vi/cECPFYFLAVw/maxresdefault.jpg" alt="Ver Datamecum Webinar 2025 — Automatización de email con IA" loading="lazy">
+      <img src="https://img.youtube.com/vi/cECPFYFLAVw/maxresdefault.jpg" alt="Ver Datamecum Webinar 2025  - Automatización de email con IA" loading="lazy">
     </a>
   </div>
 </div>

@@ -1,114 +1,128 @@
 ---
-title: Production AI API Platform
-description: Production AI API platform with deterministic workflow orchestration, serving 500+ daily API requests and reducing manual processing by 70%.
-image: assets/diagrams/ai-api-platform-architecture.png
+title: AI-Powered Booking Email Automation
+description: Production GenAI workflow that automated booking email processing for a tourism operations team, reducing daily manual triage from 100+ emails to 10-15 actionable items using Gemini, Instructor, Pydantic, and AWS.
+image: assets/diagrams/booking-email-automation-architecture.png
 tags:
-  - production-ai
-  - fastapi
-  - aws
   - agentic-ai
-  - platform-engineering
+  - ai-engineering
+  - aws
+  - production-ai
 ---
 
-# Production AI API Platform
+# AI-Powered Booking Email Automation
 
 !!! abstract "Delivery snapshot"
-    **Role**: AI Engineer  
-    **Sector**: Competitive intelligence
-    **Goal**: Turn multi-step AI analysis into a dependable production platform
+    **Role**: AI Engineer<br>
+    **Sector**: Tourism and activities operations<br>
+    **Goal**: Automate the processing, classification, and routing of high-volume booking emails with supplier response generation
 
 !!! success "Measured impact"
-    - **70% reduction** in manual competitive analysis processing time
-    - **500+ daily API requests** served with FastAPI and WebSocket support
-    - Multi-step agentic workflows replacing slow manual analysis paths
-    - Production deployment across AWS services with repeatable delivery
+    - Reduced daily email triage from **100+ items to 10-15 actionable items**
+    - Automated extraction, classification, and supplier communication across **4 booking categories**
+    - Idempotent processing with zero duplicate supplier messages
+    - Self-service operations via **Streamlit admin panel** - no engineering needed for day-to-day changes
 
 !!! info "Core stack"
-    <span class="tech-badge">LangChain</span>
-    <span class="tech-badge">FastAPI</span>
-    <span class="tech-badge">WebSockets</span>
-    <span class="tech-badge">AWS</span>
-    <span class="tech-badge">Docker</span>
-    <span class="tech-badge">CI/CD</span>
+    <span class="tech-badge">Gemini</span>
+    <span class="tech-badge">Instructor</span>
+    <span class="tech-badge">Pydantic</span>
+    <span class="tech-badge">Python</span>
+    <span class="tech-badge">AWS SQS</span>
+    <span class="tech-badge">AWS SES</span>
+    <span class="tech-badge">AWS S3</span>
+    <span class="tech-badge">Streamlit</span>
 
-<div class="metric-highlight">
-  <div class="metric-highlight-item">
-    <span class="metric-number">70%</span>
-    <span class="metric-label">reduction in manual analysis processing</span>
-  </div>
-  <div class="metric-highlight-item">
-    <span class="metric-number">500+</span>
-    <span class="metric-label">daily API requests served reliably</span>
-  </div>
-  <div class="metric-highlight-item">
-    <span class="metric-number">Real-time</span>
-    <span class="metric-label">streaming delivery via WebSockets</span>
-  </div>
-</div>
+## Challenge
 
-## Business challenge
+The operations team at a tourism and activities company was processing over 100 booking-related emails per day - new reservations, cancellations, modifications, and general inquiries - all manually. Each email had to be read, understood, matched against the current activity catalog, classified by type, and routed to the correct supplier or internal team.
 
-Complex competitive analysis tasks required analysts to manually gather, process, and synthesize information from multiple sources. The process was slow, inconsistent, and difficult to scale. The client needed an AI-driven platform that could automate multi-step analysis workflows while maintaining the accuracy and reliability required for business-critical decisions.
+The process was slow, inconsistent, and pulled skilled staff away from higher-value operational work. Emails were missed, duplicates were sent to suppliers, and there was no structured record of what had been processed or why.
+
+They needed a system that could automatically understand booking emails, extract structured data, classify the request type, and generate the right supplier communication - without breaking when edge cases or retries appeared.
 
 ## Solution overview
 
-![Architecture diagram - Production AI API Platform](../../assets/diagrams/ai-api-platform-architecture.png)
-*High-level architecture covering orchestration, FastAPI delivery, WebSocket streaming, and AWS deployment.*
+![Architecture diagram - AI-Powered Booking Email Automation](../../assets/diagrams/booking-email-automation-architecture.png)
 
-I designed the platform as a production service layer for multi-step AI workflows:
+I designed the system as an **orchestrated LLM workflow on AWS**, built around six processing stages with deterministic control at every step.
 
-- **LangChain orchestration** broke complex analysis into repeatable and observable subtasks.
-- **Deterministic workflow control** kept the system behaving like a service instead of a fragile chat interface.
-- **FastAPI and WebSockets** supported synchronous requests and real-time delivery of longer-running outputs.
-- **AWS deployment** across Lambda, ECS, and S3 matched performance and scaling needs without overcomplicating the first production version.
+### Ingestion
+
+- **Incoming booking emails** arrive and are queued via **AWS SQS**, decoupling email arrival from processing and giving the system backpressure control and retry safety from the first step.
+
+### Pre-validation
+
+- Before any LLM processing, the system filters incoming emails by **activity type, channel, and booking code**.
+- This keeps inference costs predictable and prevents the AI layer from wasting tokens on irrelevant or malformed messages.
+
+### Structured Extraction
+
+- **Gemini** with **Instructor** and **Pydantic** models extracts validated, type-safe booking data from unstructured email text.
+- Every field is validated against a schema before the workflow continues - no free-form LLM outputs pass through.
+- Extracted data feeds into the **S3 Sales Report** for operational tracking.
+
+### Operational Grounding
+
+- Classification decisions are anchored to a **live activity catalog stored in S3**, so the system routes based on what is actually bookable today - not on stale or hallucinated context.
+- When the catalog changes, the system adapts immediately without redeployment.
+
+### Classification and Routing
+
+- Each email is classified into one of four paths: **new booking, cancellation, modification, or inquiry**.
+- Each path triggers different downstream logic and supplier communication templates.
+
+### Idempotency and Retry Control
+
+- **S3 state markers** prevent duplicate processing when emails are retried or redelivered by SQS.
+- No booking gets processed twice. No supplier receives a duplicate message.
+
+### Provider Message Generation and Delivery
+
+- The system generates **supplier-ready communications** constrained by templates and business rules.
+- **AWS SES** delivers the messages to suppliers and produces an **internal summary** for the operations team.
+
+### Operations Layer
+
+- A **Streamlit admin panel** gives the operations team direct control over the activity catalog and access to sales reports.
+- Day-to-day configuration changes require zero engineering involvement.
 
 ## Key design decisions
 
-- The platform separates orchestration, application services, and infrastructure adapters so the system can evolve without rewriting core business logic.
-- API contracts stay stable even when underlying prompts, tools, or models change.
-- Observability and deployment repeatability were treated as first-order requirements, not late-stage polish.
+- **LLM only where it adds value.** Pre-validation, routing logic, idempotency control, and delivery are all deterministic. The LLM handles extraction and message generation - the parts where unstructured language understanding is genuinely needed.
+- **Structured outputs everywhere.** Gemini with Instructor and Pydantic models means every LLM response is validated before the workflow continues. If the output does not conform, the system retries or flags for review - it never silently passes bad data downstream.
+- **Grounding against live operational data.** Classification is anchored to the real activity catalog in S3, not to the model's training data. This eliminates hallucinated availability and keeps routing accurate as the business changes.
+- **Idempotency as a first-class concern.** Email systems retry. SQS redelivers. The workflow handles all of this gracefully through S3 state markers, so the operations team never has to manually check for duplicate supplier messages.
+- **Self-service operations.** The Streamlit admin panel means the operations team owns their catalog and reporting without depending on engineering for every change. This reduces friction and keeps the system maintainable long-term.
 
 ## Results in production
 
-- 70% reduction in manual analysis processing time
-- 500+ daily API requests handled reliably
-- Real-time delivery of results through streaming interfaces
-- Cleaner path for scaling concurrent workloads as demand grew
+- Daily email triage reduced from 100+ items to 10-15 actionable items
+- Automated extraction and classification across four booking categories
+- Supplier responses generated and delivered without manual intervention
+- Zero duplicate messages to suppliers thanks to idempotent processing
+- Operations team manages catalog and reporting through self-service admin panel
+- System handles retries and edge cases without manual recovery
 
-## Implementation notes
+## Tech Stack
 
-=== "Workflow orchestration"
-    ```python
-    workflow = AnalysisWorkflow(
-        research_step=research_agent,
-        synthesis_step=synthesis_agent,
-        review_step=quality_gate
-    )
-    result = await workflow.run(request)
-    ```
-
-=== "Streaming delivery"
-    ```python
-    @app.websocket("/analysis/{job_id}")
-    async def stream_analysis(websocket: WebSocket, job_id: str) -> None:
-        await websocket.accept()
-        async for event in analysis_service.stream(job_id):
-            await websocket.send_json(event.model_dump())
-    ```
-
-## Why it mattered
-
-The client did not just need better model outputs. They needed a platform shape the team could trust, extend, and integrate into daily operations. The architecture made that possible without turning the AI layer into a black box nobody could maintain.
+| Layer | Technology |
+|---|---|
+| LLM & extraction | Gemini, Instructor, Pydantic |
+| Orchestration | Python, deterministic workflow control |
+| Ingestion & queuing | AWS SQS |
+| Storage & state | AWS S3 (activity catalog, sales reports, idempotency markers) |
+| Email delivery | AWS SES |
+| Admin interface | Streamlit |
+| Infrastructure | AWS (SQS, SES, S3) |
 
 <div class="cta-panel" markdown>
 
-## Building an AI API that needs to hold up under real usage?
+## Processing high volumes of operational emails manually?
 
-If your team already knows the workflow is valuable but the implementation still feels too fragile for production, this is exactly the transition point I help with.
+If your team is spending hours every day reading, classifying, and responding to structured communications - booking requests, supplier coordination, order confirmations, support tickets - and the decision logic is clear but the execution is still manual, this is the type of system I build.
 
 <div class="cta-actions" markdown>
-[Book a free intro call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="case_platform_intro_call" target="_blank" rel="noopener" }
-[Read the FastAPI delivery post :material-arrow-right:](../../blog/posts/shipping-ai-apis-with-fastapi.md){ .md-button }
+[Book a free intro call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="case_booking_intro_call" target="_blank" rel="noopener" }
 </div>
 
 </div>

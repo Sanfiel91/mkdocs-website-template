@@ -24,17 +24,17 @@ Each case study includes the business challenge, the system shape, key design de
 
     Production GenAI workflow that reduced daily email triage from 100+ items to 10-15 actionable items using PydanticAI, RAG, and FastAPI. Presented publicly at Datamecum Webinar 2025.
 
--   [Hybrid Search RAG Pipeline](projects/rag-hybrid-search-pipeline.md)
+-   [Conversational AI Seating Agent](projects/rag-hybrid-search-pipeline.md)
 
     ---
 
-    Hybrid retrieval architecture combining OpenSearch and Qdrant to improve domain-specific accuracy by 40% while keeping the LLM layer decoupled.
+    Real-time conversational backend that processes Excel booking files via WebSocket, executes deterministic seating assignments, and answers operational queries in natural language.
 
--   [Production AI API Platform](projects/enterprise-ai-products.md)
+-   [AI-Powered Booking Email Automation](projects/enterprise-ai-products.md)
 
     ---
 
-    Deterministic AI platform with FastAPI, WebSockets, and AWS infrastructure serving 500+ daily API requests.
+    Orchestrated LLM workflow on AWS that automated booking email processing across 4 categories with idempotent supplier communication and self-service operations.
 
 </div>
 
