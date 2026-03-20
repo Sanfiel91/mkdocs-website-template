@@ -1,7 +1,7 @@
 ---
 title: AI Engineer for Agentic AI, RAG, and Production AI Delivery
 description: AI Engineer helping teams turn promising AI pilots into production-ready agentic systems, RAG pipelines, and AI APIs.
-image: assets/andres-espinosa.png
+image: assets/andres-espinosa-cover.jpg
 tags:
   - ai-engineering
   - agentic-ai
@@ -10,6 +10,7 @@ tags:
 hide:
   - navigation
   - toc
+  - footer
 ---
 
 <div class="hero-section grid-container" markdown>
@@ -27,7 +28,7 @@ I help teams turn AI pilots into reliable systems using RAG, APIs, and agent-bas
 [View my work :material-arrow-right:](portfolio/index.md){ .md-button .track-conversion data-conversion-label="hero_portfolio" }
 </div>
 
-<p class="hero-proof">4+ years across data science, data engineering, and AI platforms, with hands-on delivery in agentic AI, hybrid retrieval, and production APIs.</p>
+<p class="hero-proof">4+ years across data science, data engineering, and AI platforms, with hands-on delivery in agentic AI, retrieval, and production APIs.</p>
 
 <div class="proof-strip">
   <span class="proof-chip">70% less manual processing</span>
@@ -39,7 +40,7 @@ I help teams turn AI pilots into reliable systems using RAG, APIs, and agent-bas
 
 <div class="profile-image-grid" markdown>
 
-![Andrés Espinosa Sanfiel, AI Engineer](assets/andres-espinosa.png){ .profile-image alt="Portrait of Andrés Espinosa Sanfiel, AI Engineer" }
+![Andrés Espinosa Sanfiel, AI Engineer](assets/andres-espinosa.jpg){ .profile-image alt="Portrait of Andrés Espinosa Sanfiel, AI Engineer" }
 
 </div>
 
@@ -134,8 +135,6 @@ If the business case is already clear but the delivery path still feels fragile,
 [Send an email :fontawesome-solid-envelope:](https://mail.google.com/mail/?view=cm&fs=1&to=aesanfiel91@gmail.com){ .md-button .track-conversion data-conversion-label="midpage_email" target="_blank" rel="noopener" }
 [Let's connect on LinkedIn :fontawesome-brands-linkedin:](https://www.linkedin.com/in/aesanfiel/){ .md-button .track-conversion data-conversion-label="midpage_linkedin" target="_blank" rel="noopener" }
 </div>
-
-<p class="contact-inline"><span><strong>Phone:</strong> <a href="tel:+34632669360">+34 632 669 360</a></span></p>
 
 </div>
 

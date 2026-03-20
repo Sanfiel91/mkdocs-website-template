@@ -18,7 +18,9 @@
       "Bash(gh run:*)",
       "Bash(CI=true uv run mkdocs build --strict -f mkdocs.yml --site-dir /tmp/test-site)",
       "Read(//tmp/test-site/**)",
-      "mcp__mcp-github-work__get_file_contents"
+      "mcp__mcp-github-work__get_file_contents",
+      "Bash(grep -E \"\\\\.\\(css|js|png|jpg|svg\\)$\")",
+      "Bash(find /home/anfiel91/projects/Personal/mkdocs-website-template -not -path */.* -not -path */.venv/* -not -path */.cache/* -not -path */.git/* -not -path */site/* -not -path */tmp/* -not -path */.uv-cache/* -type d)"
     ]
   }
 }

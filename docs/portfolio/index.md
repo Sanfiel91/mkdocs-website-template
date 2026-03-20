@@ -6,6 +6,8 @@ tags:
   - portfolio
   - ai-engineering
   - case-studies
+hide:
+  - footer
 ---
 
 # Selected case studies

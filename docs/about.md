@@ -1,126 +1,122 @@
 ---
 title: About Andrés Espinosa Sanfiel
 description: About Andrés Espinosa Sanfiel, AI Engineer with 4+ years across data science, data engineering, and production AI delivery.
-image: assets/andres-espinosa.png
+image: assets/andres-espinosa-cover.jpg
 tags:
   - ai-engineering
   - consulting
   - production-ai
+hide:
+  - footer
 ---
 
 # About Andrés Espinosa Sanfiel
 
-## Executive summary
+## The short version
 
-I am an AI engineer focused on agentic AI systems, hybrid RAG pipelines, and production AI platforms. My work sits where architecture, business value, and operational reality need to meet. I help teams move from promising prototypes to systems that can support daily usage, evolving requirements, and measurable outcomes.
+I help teams take AI systems from "it works in a notebook" to "it runs in production and we trust it." If your prototype already proves the value but the path to a reliable, maintainable system still feels unclear — that is exactly where I work best.
 
-My background combines economics, data engineering, data science, and AI product delivery. I hold a Master's degree in Advanced and Applied Artificial Intelligence from the University of Valencia and a Bachelor's degree in Economics, which gives me both a technical and business lens when shaping AI solutions.
+## How I got here
 
-<div class="author-card" markdown>
+I studied Economics before I ever touched a line of Python. That background turned out to be more useful than I expected: it trained me to think in terms of trade-offs, incentives, and measurable outcomes — which is exactly what matters when you are deciding how to architect an AI system that a business will actually depend on.
 
-**What I optimize for**
+From there I moved into data engineering, building Spark pipelines and learning what it takes to keep data flowing reliably at scale. Then into data science, where I started working with machine learning models, cloud AI services, and MLOps workflows. And eventually into AI engineering, where I found the work I care about most: making AI systems that are not just impressive in a demo, but dependable enough to serve real users every day.
 
-- Clear business outcomes before model choices
-- Deterministic workflows over fragile prompt chains
-- Retrieval systems that can be explained and improved
-- Production delivery paths that internal teams can maintain
+That progression — from data pipelines to models to production AI — is what shapes how I think about every project. I have seen what breaks when you skip the infrastructure. I have seen what happens when the model is great but the system around it is fragile. And I have learned that the hardest part of AI delivery is rarely the model itself; it is everything else.
 
-</div>
+I hold a Master's degree in Advanced and Applied Artificial Intelligence from the University of Valencia and a Bachelor's in Economics. Together, they give me both a technical and a business lens when shaping AI solutions — and I use both daily.
 
-## Background
+## What I have been building
 
-My path to AI engineering started with economics. I hold a Bachelor's degree in Economics and a Master's degree in Advanced and Applied Artificial Intelligence from the University of Valencia — a combination that shapes how I approach every system I build: with both technical rigor and a clear line to business value.
+My current work is focused on the gap between a working AI prototype and a system a team can actually rely on.
 
-I spent my early career in data engineering and data science, building ETL pipelines with Apache Spark, deploying machine learning models on Azure, and implementing MLOps practices with MLflow. That foundation gave me a solid understanding of how data systems work end-to-end — from ingestion and transformation through to model serving and monitoring.
+Recent delivery includes agentic workflows that cut manual processing by 70%, hybrid RAG pipelines that improved domain-specific retrieval accuracy by 40%, and FastAPI services handling 500+ daily API requests for live AI workloads.
 
-Since 2024, my focus shifted fully to production AI engineering: agentic workflows, hybrid RAG systems, structured LLM outputs, and cloud-native deployments on AWS. I have designed and delivered systems that automate real business processes — from booking pipelines handling daily transaction volumes to email automation systems with full LLM observability.
+One of those projects — a production email automation system built with PydanticAI, RAG, and FastAPI — I later [presented publicly at the Datamecum Webinar 2025](https://youtu.be/cECPFYFLAVw?si=AfFpwbT-skWP5LGp){ target="_blank" rel="noopener" }. You can also explore the details in my [case studies](portfolio/index.md).
 
-I presented one of these production systems publicly at the **Datamecum Webinar 2025**, walking through the architecture, design decisions, and operational results of an AI-powered email automation pipeline.
-
-The details of these projects — including architecture, tech stack, and measurable outcomes — are documented in the [case studies](portfolio/index.md).
-
-## Core stack
+## Certifications & Speaking
 
 <div class="grid cards" markdown>
 
--   :material-robot-outline:{ .lg .middle } **Agentic AI and orchestration**
+-   :material-microsoft:{ .lg .middle } **Microsoft Certified**
 
     ---
 
-    LangChain, LangGraph, PydanticAI, Agno, MCP protocol, OpenAI API, deterministic workflows, multi-step agents, and tool orchestration.
-
--   :material-database-search:{ .lg .middle } **Retrieval and data**
-
-    ---
-
-    OpenSearch, Qdrant, PostgreSQL/pgVector, Redis, PySpark, SQL, and domain-specific search architectures that combine vector and keyword retrieval.
-
--   :material-api:{ .lg .middle } **Platforms and cloud**
-
-    ---
-
-    Python, FastAPI, WebSockets, AWS, Azure, Docker, and backend APIs built for real usage.
-
--   :material-chart-box-outline:{ .lg .middle } **Delivery and MLOps**
-
-    ---
-
-    CI/CD, MLflow, LangSmith, Langfuse, deployment workflows, and hexagonal architecture for maintainability and decoupling.
-
-</div>
-
-## Certifications and speaking
-
-<div class="grid cards" markdown>
-
--   :material-microsoft:{ .lg .middle } **Microsoft certified**
-
-    ---
-
-    [Azure AI Engineer Associate](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b82aae16722c94fe){ target="_blank" rel="noopener" }  
-    [Azure Data Scientist Associate](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b5e0bd45059b634a){ target="_blank" rel="noopener" }  
-    [Fabric Analytics Engineer Associate](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b5d62cfc3a86d3a4){ target="_blank" rel="noopener" }  
+    [Azure AI Engineer Associate](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b82aae16722c94fe){ target="_blank" rel="noopener" }
+    [Azure Data Scientist Associate](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b5e0bd45059b634a){ target="_blank" rel="noopener" }
+    [Fabric Analytics Engineer Associate](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b5d62cfc3a86d3a4){ target="_blank" rel="noopener" }
     [Azure Fundamentals](https://learn.microsoft.com/en-us/users/andrsespinosasanfiel-16/credentials/b223548422651062){ target="_blank" rel="noopener" }
 
--   :fontawesome-solid-database:{ .lg .middle } **Databricks certified**
+-   :fontawesome-solid-database:{ .lg .middle } **Databricks Certified**
 
     ---
 
-    [Machine Learning Associate](https://credentials.databricks.com/6b2bbbc2-c75f-4ec9-9540-89d1879a3b98){ target="_blank" rel="noopener" }  
+    [Machine Learning Associate](https://credentials.databricks.com/6b2bbbc2-c75f-4ec9-9540-89d1879a3b98){ target="_blank" rel="noopener" }
     [Apache Spark Developer](https://credentials.databricks.com/9e374e9e-e49d-47e2-966f-581d521c2f5a){ target="_blank" rel="noopener" }
 
--   :material-microphone:{ .lg .middle } **Public technical speaking**
+-   :material-microphone:{ .lg .middle } **[Technical Speaker](https://youtu.be/cECPFYFLAVw?si=AfFpwbT-skWP5LGp){ target="_blank" rel="noopener" }**
 
     ---
 
-    Speaker at [Datamecum Webinar 2025](https://youtu.be/cECPFYFLAVw?si=dh9k_iqe5bDFC_fv&t=472){ target="_blank" rel="noopener" }, presenting a production GenAI email automation system built with PydanticAI, RAG, and FastAPI.
+    Speaker at Datamecum Webinar 2025, presenting a production GenAI email automation system built with PydanticAI, RAG, and FastAPI.
 
 </div>
 
-## Working style
+## Core Stack
 
-- I start from the business objective and define the technical shape around measurable outcomes.
-- I prefer deterministic workflows and explicit system boundaries over fragile prompt-only behavior.
-- I build for production-readiness early, so scaling, maintainability, and observability are considered from the start.
-- I am comfortable working independently or embedding into an existing engineering or product team.
+<div class="grid cards" markdown>
 
-## Languages and availability
+-   :material-robot-outline:{ .lg .middle } **Agentic AI & Orchestration**
 
-- Fluent in English and Spanish.
+    ---
+
+    LangChain, LangGraph, PydanticAI, Agno, MCP protocol, deterministic workflows, multi-step agents, and tool orchestration.
+
+-   :material-database-search:{ .lg .middle } **Retrieval & Data**
+
+    ---
+
+    OpenSearch, Qdrant, PostgreSQL, pgVector, PySpark, SQL, and domain-specific search architectures that combine vector and keyword retrieval.
+
+-   :material-api:{ .lg .middle } **Platforms & Cloud**
+
+    ---
+
+    Python, FastAPI, WebSockets, AWS (ECS, Lambda, S3, DynamoDB, EventBridge), Azure, Docker, Redis, and backend APIs built for real usage.
+
+-   :material-chart-box-outline:{ .lg .middle } **Delivery & MLOps**
+
+    ---
+
+    CI/CD, MLflow, Langfuse, LangSmith, model tracking, deployment workflows, and hexagonal architecture for maintainability and decoupling.
+
+</div>
+
+## How I work
+
+I start every engagement from the business objective — not from the technology. The first question is always "what does success look like and how will we measure it?", and the architecture follows from there.
+
+I have a strong preference for deterministic workflows and explicit system boundaries. If the system behavior cannot be tested and observed, it is not ready for production. That means I think carefully about where the LLM belongs in the workflow and where plain logic does the job better.
+
+I build for production-readiness from day one. Scaling, maintainability, and observability are not things I add at the end — they shape the initial design. And when the engagement ends, the goal is always a system your team can run, extend, and evaluate with confidence.
+
+I work well independently and also as a technical partner embedded with an internal engineering or product team. Either way, I am direct about what I think will work, what will not, and what the trade-offs are.
+
+## Languages & Availability
+
+- I work in English and Spanish.
 - Based in Spain and available for remote collaboration across Europe.
-- Open to freelance, contract, and selected long-term opportunities.
+- Open to freelance, contract, and selected long-term engagements.
 
 <div class="cta-panel" markdown>
 
-## Want to discuss a concrete AI architecture challenge?
+## Want to discuss a project?
 
 I can help evaluate the technical shape, delivery risk, and business fit before your team commits to implementation.
 
 <div class="cta-actions" markdown>
 [Book an intro call :material-arrow-top-right:](https://calendly.com/andresesanfiel/introduction-call){ .md-button .md-button--primary .track-conversion data-conversion-label="about_intro_call" target="_blank" rel="noopener" }
-[Review the case studies :material-arrow-right:](portfolio/index.md){ .md-button }
+[Connect on LinkedIn :fontawesome-brands-linkedin:](https://www.linkedin.com/in/aesanfiel/){ .md-button .track-conversion data-conversion-label="about_linkedin" target="_blank" rel="noopener" }
 </div>
-
-<p class="contact-inline"><span><strong>Phone:</strong> <a href="tel:+34632669360">+34 632 669 360</a></span></p>
 
 </div>

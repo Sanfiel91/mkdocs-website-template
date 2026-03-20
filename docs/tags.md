@@ -2,6 +2,8 @@
 title: Topics
 description: Browse portfolio pages and blog posts by topic.
 image: assets/diagrams/rag-hybrid-search-architecture.png
+hide:
+  - footer
 ---
 
 # Topics

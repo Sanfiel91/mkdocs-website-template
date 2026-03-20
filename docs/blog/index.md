@@ -7,6 +7,8 @@ tags:
   - agentic-ai
   - rag
   - fastapi
+hide:
+  - footer
 ---
 
 # Blog and insights

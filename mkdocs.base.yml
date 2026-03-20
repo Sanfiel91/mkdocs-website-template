@@ -54,7 +54,6 @@ plugins:
   - optimize:
       enabled: !ENV [CI, false]
       cache_dir: tmp/mkdocs-optimize-cache
-      optimize_png: false
   - privacy:
       enabled: !ENV [CI, false]
       concurrency: 4
@@ -65,6 +64,14 @@ plugins:
       blog_dir: blog
       authors_file: "{blog}/.authors.yml"
       categories: true
+      categories_allowed:
+        - Agentic AI
+        - Architecture
+        - Delivery
+        - RAG
+        - Speaking
+        - Arquitectura
+        - Ponencias
       post_readtime: true
   - tags
 
@@ -127,7 +134,7 @@ extra:
   person:
     name: Andrés Espinosa Sanfiel
     job_title: AI Engineer
-    image: assets/andres-espinosa.png
+    image: assets/andres-espinosa.jpg
     url: https://sanfieldai.com
     email: aesanfiel91@gmail.com
     telephone: "+34 632 669 360"

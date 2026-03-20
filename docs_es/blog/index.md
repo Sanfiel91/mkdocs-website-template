@@ -1,31 +1,33 @@
 ---
 title: Blog e ideas prácticas
-description: Notas prácticas sobre agentic AI, retrieval híbrido y entrega de IA en producción.
+description: Notas prácticas sobre Agentic AI, búsqueda híbrida y entrega de IA en producción.
 image: assets/diagrams/ai-api-platform-architecture.png
 tags:
   - blog
   - agentic-ai
   - rag
   - fastapi
+hide:
+  - footer
 ---
 
 # Blog e ideas prácticas
 
-Aquí publico notas de implementación, lecciones de arquitectura y heurísticas de entrega extraídas de construir sistemas de IA que tienen que funcionar fuera del entorno demo.
+Aquí publico notas de implementación, lecciones de arquitectura y heurísticas de entrega extraídas de construir sistemas de IA que tienen que funcionar fuera del entorno de demo.
 
-El foco es práctico: cómo hacer workflows agentic más fiables, cómo mejorar la calidad de retrieval y cómo poner en producción APIs de IA que un equipo interno pueda operar.
+El foco es práctico: cómo hacer workflows de Agentic AI más fiables, cómo mejorar la calidad de la búsqueda híbrida y cómo poner en producción APIs de IA que un equipo interno pueda operar.
 
 ## Qué vas a encontrar aquí
 
 <div class="grid cards" markdown>
 
--   :material-robot:{ .lg .middle } **Diseño de workflows agentic**
+-   :material-robot:{ .lg .middle } **Diseño de workflows de Agentic AI**
 
     ---
 
-    Patrones de orquestación determinista, límites de uso de tools, revisión humana y contención de fallos.
+    Patrones de orquestación determinista, límites de uso de herramientas, revisión humana y contención de fallos.
 
--   :material-database-search:{ .lg .middle } **RAG y retrieval híbrido**
+-   :material-database-search:{ .lg .middle } **RAG y búsqueda híbrida**
 
     ---
 
@@ -67,7 +69,7 @@ El foco es práctico: cómo hacer workflows agentic más fiables, cómo mejorar 
 
     ---
 
-    Por qué el retrieval híbrido suele funcionar mejor que la búsqueda vectorial pura y cómo estructurar el sistema para evolucionar el ranking con seguridad.
+    Por qué la búsqueda híbrida suele funcionar mejor que la búsqueda vectorial pura y cómo estructurar el sistema para evolucionar el ranking con seguridad.
 
 -   [Cómo poner en producción APIs de IA con FastAPI](posts/shipping-ai-apis-with-fastapi.md)
 

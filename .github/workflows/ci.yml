@@ -39,6 +39,21 @@ jobs:
       - name: Sync Python dependencies
         run: uv sync --frozen
 
+      - name: Check shared EN/ES assets stay in sync
+        run: |
+          for pair in \
+            "docs/stylesheets/extra.css docs_es/stylesheets/extra.css" \
+            "docs/stylesheets/hero.css docs_es/stylesheets/hero.css" \
+            "docs/javascripts/extra.js docs_es/javascripts/extra.js"
+          do
+            set -- $pair
+            if ! cmp -s "$1" "$2"; then
+              echo "::error file=$1::Expected $1 and $2 to stay identical"
+              diff -u "$1" "$2" || true
+              exit 1
+            fi
+          done
+
       - name: Build English site
         run: uv run mkdocs build --strict -f mkdocs.yml --site-dir site
 
