@@ -1,9 +1,9 @@
 INHERIT: mkdocs.base.yml
 
-site_name: Andrés Espinosa Sanfiel | AI Engineer
+site_name: Andrés Espinosa Sanfiel
 site_url: https://sanfieldai.com/es
 site_description: >-
-  AI Engineer especializado en sistemas agentic AI, pipelines RAG y APIs de IA
+  AI Engineer especializado en Agentic AI, pipelines RAG y APIs de IA
   en producción. Basado en España y disponible en remoto para Europa.
 docs_dir: docs_es
 

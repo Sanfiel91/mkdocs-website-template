@@ -1,5 +1,5 @@
 .hero-section.grid-container {
-  padding: 2.75rem;
+  padding: 2.5rem;
   border: 1px solid rgba(22, 50, 79, 0.12);
   border-radius: 28px;
   background:
@@ -17,9 +17,10 @@
 }
 
 .profile-image {
-  width: 320px;
-  height: 420px;
+  width: 300px;
+  height: 390px;
   object-fit: cover;
+  object-position: center 12%;
   border-radius: 24px;
   transform: none;
   border: 1px solid rgba(22, 50, 79, 0.12);
@@ -36,8 +37,8 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  gap: 48px;
-  align-items: center;
+  gap: 40px;
+  align-items: start;
   padding: 0;
 }
 
@@ -53,8 +54,9 @@
 .profile-image-grid {
   grid-column: 2 / 3;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-top: 0.15rem;
 }
 
 /* Mobile layout */
@@ -73,6 +75,7 @@
     max-width: 340px;
     height: 400px;
     margin: 0 auto;
+    object-position: center 14%;
   }
 
   .text-intro-grid {
@@ -85,6 +88,8 @@
     grid-row: 1;
     grid-column: 1;
     justify-content: center; /* Center image on mobile */
+    align-items: center;
+    padding-top: 0;
   }
 }
 
@@ -94,9 +99,92 @@
     max-width: 1200px;
     margin: 0 auto;
   }
-  
+
   .profile-image {
-    width: 380px;
-    height: 500px;
+    width: 340px;
+    height: 450px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
+   Hero entrance animations
+   ═══════════════════════════════════════════════════════ */
+@keyframes hero-fade-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes hero-gradient-shift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.hero-section.grid-container {
+  background-size: 200% 200%;
+  animation: hero-gradient-shift 12s ease infinite;
+}
+
+.hero-eyebrow {
+  animation: hero-fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+}
+
+.text-intro-grid h1 {
+  animation: hero-fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+
+.hero-actions {
+  animation: hero-fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both;
+}
+
+.hero-proof {
+  animation: hero-fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.35s both;
+}
+
+.proof-strip {
+  animation: hero-fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.45s both;
+}
+
+.profile-image {
+  animation: hero-fade-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.25s both;
+}
+
+/* ═══════════════════════════════════════════════════════
+   Tablet breakpoint
+   ═══════════════════════════════════════════════════════ */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: 1.2fr 1fr;
+    gap: 24px;
+  }
+
+  .hero-section.grid-container {
+    padding: 2rem;
+  }
+
+  .profile-image {
+    width: 240px;
+    height: 320px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
+   Reduced motion
+   ═══════════════════════════════════════════════════════ */
+@media (prefers-reduced-motion: reduce) {
+  .hero-section.grid-container {
+    animation: none;
+    background-size: auto;
+  }
+
+  .hero-eyebrow,
+  .text-intro-grid h1,
+  .hero-actions,
+  .hero-proof,
+  .proof-strip,
+  .profile-image {
+    animation: none;
+    opacity: 1;
+    transform: none;
   }
 }

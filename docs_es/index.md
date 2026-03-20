@@ -1,7 +1,7 @@
 ---
 title: AI Engineer para IA basada en agentes, RAG y APIs de IA en producción
 description: AI Engineer que ayuda a equipos a convertir pilotos prometedores en sistemas basados en agentes, pipelines RAG y APIs de IA listas para producción.
-image: assets/andres-espinosa.png
+image: assets/andres-espinosa-cover.jpg
 tags:
   - ai-engineering
   - agentic-ai
@@ -10,6 +10,7 @@ tags:
 hide:
   - navigation
   - toc
+  - footer
 ---
 
 <div class="hero-section grid-container" markdown>
@@ -39,7 +40,7 @@ Ayudo a equipos a convertir pilotos de IA en sistemas fiables usando RAG, APIs y
 
 <div class="profile-image-grid" markdown>
 
-![Andrés Espinosa Sanfiel, AI Engineer](assets/andres-espinosa.png){ .profile-image alt="Retrato de Andrés Espinosa Sanfiel, AI Engineer" }
+![Andrés Espinosa Sanfiel, AI Engineer](assets/andres-espinosa.jpg){ .profile-image alt="Retrato de Andrés Espinosa Sanfiel, AI Engineer" }
 
 </div>
 
@@ -134,8 +135,6 @@ Si el caso de negocio ya está claro pero la ruta de entrega sigue siendo frági
 [Envía un email :fontawesome-solid-envelope:](https://mail.google.com/mail/?view=cm&fs=1&to=aesanfiel91@gmail.com){ .md-button .track-conversion data-conversion-label="midpage_email_es" target="_blank" rel="noopener" }
 [Conectemos en LinkedIn :fontawesome-brands-linkedin:](https://www.linkedin.com/in/aesanfiel/){ .md-button .track-conversion data-conversion-label="midpage_linkedin_es" target="_blank" rel="noopener" }
 </div>
-
-<p class="contact-inline"><span><strong>Teléfono:</strong> <a href="tel:+34632669360">+34 632 669 360</a></span></p>
 
 </div>
 

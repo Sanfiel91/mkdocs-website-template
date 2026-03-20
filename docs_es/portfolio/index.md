@@ -6,11 +6,13 @@ tags:
   - portfolio
   - ai-engineering
   - case-studies
+hide:
+  - footer
 ---
 
 # Casos de estudio seleccionados
 
-Estos proyectos muestran cómo abordo problemas de negocio que requieren algo más que un prototipo. El foco está en resultados medibles, arquitectura mantenible y entrega orientada a producción en automatización, retrieval y plataformas de IA.
+Estos proyectos muestran cómo abordo problemas de negocio que requieren algo más que un prototipo. El foco está en resultados medibles, arquitectura mantenible y entrega orientada a producción en automatización, búsqueda híbrida y plataformas de IA.
 
 Cada caso incluye el reto de negocio, la forma del sistema, las decisiones clave de arquitectura y los resultados de producción que realmente importaron.
 
@@ -26,7 +28,7 @@ Cada caso incluye el reto de negocio, la forma del sistema, las decisiones clave
 
     ---
 
-    Arquitectura de retrieval híbrido que combina OpenSearch y Qdrant para mejorar un 40% la precisión por dominio manteniendo desacoplada la capa LLM.
+    Arquitectura de búsqueda híbrida que combina OpenSearch y Qdrant para mejorar un 40% la precisión por dominio manteniendo desacoplada la capa LLM.
 
 -   [Plataforma de APIs de IA en producción](projects/enterprise-ai-products.md)
 
