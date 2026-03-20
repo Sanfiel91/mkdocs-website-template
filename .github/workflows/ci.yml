@@ -57,6 +57,9 @@ jobs:
       - name: Build English site
         run: uv run mkdocs build --strict -f mkdocs.yml --site-dir site
 
+      - name: Clear optimize cache before ES build
+        run: rm -rf tmp/mkdocs-optimize-cache
+
       - name: Build Spanish site
         run: uv run mkdocs build --strict -f mkdocs.es.yml --site-dir site/es
 
