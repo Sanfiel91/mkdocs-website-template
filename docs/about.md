@@ -14,7 +14,7 @@ hide:
 
 <div class="text-intro-grid" markdown>
 
-# About Andrés Espinosa Sanfiel
+# About me
 
 ## The short version
 
