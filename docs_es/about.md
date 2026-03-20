@@ -10,6 +10,10 @@ hide:
   - footer
 ---
 
+<div class="about-hero grid-container" markdown>
+
+<div class="text-intro-grid" markdown>
+
 # Sobre Andrés Espinosa Sanfiel
 
 ## La versión corta
@@ -17,6 +21,16 @@ hide:
 Ayudo a equipos a llevar sistemas de IA desde "funciona en un notebook" hasta "funciona en producción y confiamos en él."
 
 Si tu prototipo ya demuestra el valor pero el camino hacia un sistema fiable y mantenible todavía no está claro - ahí es exactamente donde mejor trabajo.
+
+</div>
+
+<div class="profile-image-grid" markdown>
+
+![Andrés Espinosa Sanfiel, AI Engineer](assets/andres-espinosa.jpg){ .profile-image alt="Retrato de Andrés Espinosa Sanfiel, AI Engineer" }
+
+</div>
+
+</div>
 
 ## Cómo llegué aquí
 

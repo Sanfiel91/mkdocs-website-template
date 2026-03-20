@@ -10,6 +10,10 @@ hide:
   - footer
 ---
 
+<div class="about-hero grid-container" markdown>
+
+<div class="text-intro-grid" markdown>
+
 # About Andrés Espinosa Sanfiel
 
 ## The short version
@@ -17,6 +21,16 @@ hide:
 I help teams take AI systems from "it works in a notebook" to "it runs in production and we trust it."
 
 If your prototype already proves the value but the path to a reliable, maintainable system still feels unclear - that is exactly where I work best.
+
+</div>
+
+<div class="profile-image-grid" markdown>
+
+![Andrés Espinosa Sanfiel, AI Engineer](assets/andres-espinosa.jpg){ .profile-image alt="Portrait of Andrés Espinosa Sanfiel, AI Engineer" }
+
+</div>
+
+</div>
 
 ## How I got here
 
